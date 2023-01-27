@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e23ac52a.css",
-    "main.js": "/static/js/main.d3fe9571.js",
-    "static/media/132618-healthy-food-for-diet-fitness.gif": "/static/media/132618-healthy-food-for-diet-fitness.f5993cc9f685bfdcea3b.gif",
-    "static/media/20587-peas-playground-of-love.gif": "/static/media/20587-peas-playground-of-love.e526dc3ef83cd7c977f7.gif",
-    "static/media/526-paper-bag-vegetables-lineal.gif": "/static/media/526-paper-bag-vegetables-lineal.bca23481be406a73c15a.gif",
-    "static/media/124102-loading-screen.gif": "/static/media/124102-loading-screen.549d86d8a935238d4c1b.gif",
-    "static/media/carrots.ico": "/static/media/carrots.865416b9fd1120404ebc.ico",
-    "index.html": "/index.html",
-    "main.e23ac52a.css.map": "/static/css/main.e23ac52a.css.map",
-    "main.d3fe9571.js.map": "/static/js/main.d3fe9571.js.map"
+    "main.css": "/VforVeggie/static/css/main.e23ac52a.css",
+    "main.js": "/VforVeggie/static/js/main.7de80655.js",
+    "static/media/132618-healthy-food-for-diet-fitness.gif": "/VforVeggie/static/media/132618-healthy-food-for-diet-fitness.f5993cc9f685bfdcea3b.gif",
+    "static/media/20587-peas-playground-of-love.gif": "/VforVeggie/static/media/20587-peas-playground-of-love.e526dc3ef83cd7c977f7.gif",
+    "static/media/526-paper-bag-vegetables-lineal.gif": "/VforVeggie/static/media/526-paper-bag-vegetables-lineal.bca23481be406a73c15a.gif",
+    "static/media/124102-loading-screen.gif": "/VforVeggie/static/media/124102-loading-screen.549d86d8a935238d4c1b.gif",
+    "static/media/carrots.ico": "/VforVeggie/static/media/carrots.865416b9fd1120404ebc.ico",
+    "index.html": "/VforVeggie/index.html",
+    "main.e23ac52a.css.map": "/VforVeggie/static/css/main.e23ac52a.css.map",
+    "main.7de80655.js.map": "/VforVeggie/static/js/main.7de80655.js.map"
   },
   "entrypoints": [
     "static/css/main.e23ac52a.css",
-    "static/js/main.d3fe9571.js"
+    "static/js/main.7de80655.js"
   ]
 }
