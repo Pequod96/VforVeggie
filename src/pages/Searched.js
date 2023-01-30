@@ -43,7 +43,7 @@ display: grid;
 margin: 3rem 3rem;
 grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
 grid-gap: 3rem;
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
     margin: 8rem 1rem;
     grid-gap: 3rem;
 }
@@ -62,7 +62,7 @@ h4{
     padding: 1rem;
     color:rgb(8, 28, 21)
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
     img{
     width: 100%;
     border-radius: 7rem;

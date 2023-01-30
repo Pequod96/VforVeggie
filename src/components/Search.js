@@ -49,16 +49,22 @@ svg{
     transform: translate(100%, -50%);
     color:rgb(8, 28, 21);
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 3rem 3rem 3rem 3rem;
   input{
     font-size: 0.7rem;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
   margin: -2.5rem 4rem 0rem 25rem;
   input{
     font-size: 0.7rem;
+}
+}
+@media only screen and (min-width: 1024px){
+  margin: -3.5rem 4rem 5rem 35rem;
+  input{
+    font-size: 0.9rem;
 }
 }
 `;

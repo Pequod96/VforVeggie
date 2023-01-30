@@ -68,7 +68,7 @@ const Wrapper = styled.div`
   .carrots{
     width: 2.5rem;
   }
-  @media only screen and (max-width: 480px){
+  @media only screen and (min-width: 390px) and (max-width: 480px){
     margin:16rem 2rem;
   h3{
     margin-left:1rem;
@@ -78,7 +78,17 @@ const Wrapper = styled.div`
     width: 1.5rem;
   }
   }
-  @media only screen and (max-width: 768px){
+  @media only screen and (min-width: 768px){
+    margin:6rem 2rem;
+  h3{
+    margin-left:1rem;
+    font-size: 1.5rem;
+  }
+  .carrots{
+    width: 1.8rem;
+  }
+  }
+  @media only screen and (min-width: 1024px){
     margin:6rem 2rem;
   h3{
     margin-left:1rem;
@@ -100,7 +110,7 @@ img{
   position: absolute;
   left:0rem;
   width: 100%;
-  height: 70%;
+  height: 90%;
   object-fit: cover;
 }
 p{
@@ -120,7 +130,7 @@ p{
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   min-height: 12rem;
 img{
   border-radius: 3rem;
@@ -133,7 +143,20 @@ p{
   height:60%;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
+  min-height: 15rem;
+img{
+  border-radius: 3rem;
+  height: 90%;
+}
+p{
+  width:100%;
+  font-weight: 600;
+  font-size:0,1rem;
+  height:60%;
+}
+}
+@media only screen and (min-width: 1024px){
   min-height: 15rem;
 img{
   border-radius: 3rem;

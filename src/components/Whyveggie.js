@@ -59,7 +59,7 @@ right: 5rem;
 width: 30%;
 border-radius: 11rem;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 7rem 2rem 0rem 2rem;
   height: 12rem;
 h2{
@@ -76,7 +76,24 @@ p{
   width: 50%;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
+  margin: 4rem 20rem 0rem 2rem;
+  height: 12rem;
+h2{
+  font-size: 1.5rem;
+}
+p{
+  line-height: 1rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.peas{
+  top: 9rem;
+  right: 3rem;
+  width: 30%;
+}
+}
+@media only screen and (min-width: 1024px){
   margin: 4rem 20rem 0rem 2rem;
   height: 12rem;
 h2{
@@ -115,7 +132,7 @@ li{
   width: 33%;
   border-radius: 11rem;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 16rem 2rem 0rem 2rem;
   height: 12rem;
 h2{
@@ -133,7 +150,7 @@ li{
   width: 50%;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
   margin: 12rem 2rem 0rem 22rem;
   height: 12rem;
 h2{
@@ -150,7 +167,23 @@ li{
   width: 30%;
   }
 }
-
+@media only screen and (min-width: 1024px){
+  margin: 12rem 2rem 0rem 22rem;
+  height: 12rem;
+h2{
+  font-size: 1.5rem;
+}
+li{
+  margin-left: 1.5rem;
+  padding: 2rem 1rem 0rem 1rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.fruits{
+  margin-top: -12rem;
+  width: 30%;
+  }
+}
 `;
 
 const ThirdWrapper = styled.div`
@@ -173,7 +206,7 @@ p{
   width: 30%;
   border-radius: 11rem;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 22rem 2rem 0rem 2rem;
 h2{
   font-weight: 600;
@@ -190,7 +223,25 @@ p{
   width: 50%;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
+  margin: 12rem 20rem 0rem 2rem;
+h2{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p{
+  padding: 2rem 0rem;
+  line-height: 1rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.apple{
+  top: 58rem;
+  right: 3rem;
+  width: 30%;
+}
+}
+@media only screen and (min-width: 1024px){
   margin: 12rem 20rem 0rem 2rem;
 h2{
   font-weight: 600;

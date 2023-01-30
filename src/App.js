@@ -25,13 +25,17 @@ font-weight: 600;
 font-family: cursive;
 color: #96e6a1;
 padding: 2rem;
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
  font-size: 1.8rem;
  padding: 0rem;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
  font-size: 1.8rem;
  padding: 0rem;
+}
+@media only screen and (min-width: 1024px){
+  font-size: 3rem;
+  padding: 0rem;
 }
 `;
 
@@ -45,18 +49,25 @@ img{
   right: 2rem;
   width: 4rem;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   height: 5rem;
   img{
     right: 1rem;
     width: 2.7rem;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
   height: 5rem;
   img{
     right: 1rem;
     width: 2.9rem;
+  }
+}
+@media only screen and (min-width: 1024px){
+  height: 7rem;
+  img{
+    right: 0.5rem;
+    width: 4rem;
   }
 }
 `;
@@ -69,12 +80,12 @@ justify-content: center;
 font-size: 1rem;
 font-weight: 600;
 color: rgb(8, 28, 21);
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
   padding: 0rem 0rem 3rem;
   font-size: 0.8rem;
   font-weight: 600;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
   padding: 0rem 0rem 3rem;
   font-size: 0.8rem;
   font-weight: 600;

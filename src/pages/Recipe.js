@@ -84,7 +84,7 @@ li{
 ul{
     margin-top: 2rem;
 }
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
     margin-top: 5rem;
     margin-bottom: 2rem;
     display: flex;
@@ -152,7 +152,7 @@ background: rgb(8, 28, 21);
 border: 2px solid black;
 margin: 0rem 2rem;
 font-weight: 600;
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
     width: 6rem;
     height: 2rem;
     color: white;
@@ -171,7 +171,7 @@ font-weight: 600;
 `
 const Info = styled.div`
 margin: 0rem 1rem 1rem 5rem;
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 390px) and (max-width: 480px){
     margin: 20rem 0rem 0rem -14rem;
 }
 @media only screen and (max-width: 768px){
