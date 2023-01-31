@@ -40,7 +40,7 @@ function Searched() {
 
 const Grid = styled.div`
 display: grid;
-margin: 3rem 3rem;
+margin: 8rem 1rem;
 grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
 grid-gap: 3rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
@@ -52,7 +52,7 @@ grid-gap: 3rem;
 const Card = styled.div`
 img{
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 7rem;
 }
 a{
     text-decoration: none;

@@ -40,23 +40,23 @@ function Whyveggie() {
 
 
 const FirstWrapper = styled.div`
-margin: 6rem 40rem 3rem 3rem;
+margin: 7rem 2rem 0rem 2rem;
 h2{
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1.3rem;
   color: rgb(8, 28, 21)
 }
 p{
   padding: 2rem 0rem;
-  line-height: 1.8rem;
-  font-weight: 500;
-  font-size: 1.2rem;
+  line-height: 1rem;
+  font-weight: 600;
+  font-size: 0.7rem;
 }
 .peas{
 position: absolute;
-top: 11rem;
-right: 5rem;
-width: 30%;
+top: 22rem;
+right: 9rem;
+width: 40%;
 border-radius: 11rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
@@ -128,23 +128,23 @@ width: 30%;
 `;
 
 const SecondWrapper = styled.div`
-margin: 15rem 2rem 2rem 40rem;
+margin: 18rem 2rem 0rem 2rem;
 h2{
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 1.3rem;
   color: rgb(8, 28, 21)
 }
 li{
-  margin-left: 2rem;
-  padding: 3rem 1rem 0rem 1rem;
-  font-weight: 500;
-  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  padding: 2rem 1rem 0rem 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
 }
 .fruits{
   position: absolute;
-  top: 47rem;
-  left: 3rem;
-  width: 33%;
+  margin-top: 3rem;
+  left: 9rem;
+  width: 40%;
   border-radius: 11rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
@@ -160,14 +160,13 @@ li{
   font-size: 0.8rem;
 }
 .fruits{
-  margin-top: 12rem;
-  margin-left: 3rem;
-  width: 50%;
+  margin-top: 3rem;
+  left: 7rem;
+  width: 40%;
   }
 }
 @media only screen and (min-width: 768px){
   margin: 12rem 2rem 0rem 22rem;
-  height: 12rem;
 h2{
   font-size: 1.5rem;
 }
@@ -178,7 +177,8 @@ li{
   font-size: 0.8rem;
 }
 .fruits{
-  margin-top: -12rem;
+  top: 32rem;
+  left: 3rem;
   width: 30%;
   }
 }
@@ -194,7 +194,7 @@ li{
   font-size: 0.9rem;
 }
 .fruits{
-  top: 53rem;
+  top: 39rem;
   width: 25%;
   }
 }
@@ -210,34 +210,34 @@ li{
   font-size: 1.2rem;
 }
 .fruits{
-  top: 65rem;
+  top: 48rem;
   width: 30%;
 }
 }
 `;
 
 const ThirdWrapper = styled.div`
-margin: 15rem 40rem 3rem 3rem;
+margin: 22rem 2rem 0rem 2rem;
 h2{
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   color: rgb(8, 28, 21);
 }
 p{
-  padding: 2rem 0rem 2rem;
-  line-height: 1.8rem;
-  font-weight: 500;
-  font-size: 1.2rem;
+  padding: 2rem 0rem;
+  line-height: 1rem;
+  font-weight: 600;
+  font-size: 0.7rem;
 }
 .apple{
   position: absolute;
   top: 90rem;
-  right: 5rem;
-  width: 30%;
+  right: 9rem;
+  width: 40%;
   border-radius: 11rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  margin: 22rem 2rem 0rem 2rem;
+  margin: 19rem 2rem 0rem 2rem;
 h2{
   font-weight: 600;
   font-size: 1.2rem;
@@ -249,6 +249,7 @@ p{
   font-size: 0.7rem;
 }
 .apple{
+  top:87rem;
   right: 6rem;
   width: 50%;
 }
@@ -266,7 +267,7 @@ p{
   font-size: 0.8rem;
 }
 .apple{
-  top: 58rem;
+  top: 60rem;
   right: 3rem;
   width: 30%;
 }
@@ -284,13 +285,13 @@ p{
   font-size: 0.9rem;
 }
 .apple{
-  top: 67rem;
+  top: 73rem;
   right: 3rem;
   width: 25%;
 }
 }
 @media only screen and (min-width: 1200px){
-  margin: 32rem 40rem 3rem 3rem;
+  margin: 15rem 40rem 3rem 3rem;
 h2{
   font-weight: 600;
   font-size: 2.5rem;
@@ -302,7 +303,7 @@ p{
   font-size: 1.2rem;
 }
 .apple{
-  top: 93rem;
+  top: 92rem;
   right: 5rem;
   width: 29%;
 }

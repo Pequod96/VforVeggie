@@ -24,18 +24,24 @@ function Veggie() {
         <Wrapper>
           <h3>Veggie Food <img className='carrots' src={carrots} alt="" /></h3>
           <Splide options={{
-            perPage: 4,
+            perPage: 1,
             arrows: true,
             pagination:false,
             drag: 'free',
             gap:'2rem',
-            mediaQuery: 'max',
+            mediaQuery: 'min',
             breakpoints: {
 		        480: {
 			      perPage: 1,
 		        },
             768: {
               perPage: 3,
+            },
+            1024: {
+              perPage:4,
+            },
+            1200: {
+              perPage: 4,
             }
            }      
           }} >
@@ -60,16 +66,16 @@ function Veggie() {
 
  
 const Wrapper = styled.div`
-  margin:8rem 2rem;
+  margin:16rem 2rem;
   h3{
-    margin-left:2rem;
-    font-size: 2rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
   }
   .carrots{
-    width: 2.5rem;
+    width: 1.5rem;
   }
   @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin:16rem 2rem;
+    margin:19rem 2rem;
   h3{
     margin-left:1rem;
     font-size: 1.2rem;
@@ -89,7 +95,7 @@ const Wrapper = styled.div`
   }
   }
   @media only screen and (min-width: 1024px){
-    margin:6rem 2rem;
+    margin:9rem 2rem;
   h3{
     margin-left:1rem;
     font-size: 1.5rem;
@@ -99,7 +105,7 @@ const Wrapper = styled.div`
   }
   }
   @media only screen and (min-width: 1200px){
-    margin:10rem 2rem;
+    margin:15rem 2rem;
   h3{
     margin-left:2rem;
     font-size: 2rem;
@@ -111,12 +117,12 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 22rem;
+  min-height: 18rem;
   border-radius: 3rem;
   overflow: hidden;
   position: relative;
 img{
-  border-radius: 2rem;
+  border-radius: 3rem;
   position: absolute;
   left:0rem;
   width: 100%;
@@ -130,12 +136,12 @@ p{
   bottom:0%;
   transform: translate(-50%, 0%);
   color: rgb(8, 28, 21);
-  width:50%;
+  width:100%;
   text-align: center;
   font-weight: 600;
-  font-size:0,5rem;
+  font-size:0,1rem;
   text-shadow: -1px 0 #fcfcfc, 0 1px #fcfcfc, 1px 0 #fcfcfc, 0 -1px #fcfcfc;
-  height:50%;
+  height:60%;
   display:flex;
   justify-content: center;
   align-items: center;

@@ -20,11 +20,11 @@ function App() {
 
 const Logo = styled(Link)`
 text-decoration: none;
-font-size: 3rem;
+font-size: 1.8rem;
 font-weight: 600;
 font-family: cursive;
 color: #96e6a1;
-padding: 2rem;
+padding: 0rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
  font-size: 1.8rem;
  padding: 0rem;
@@ -45,13 +45,13 @@ padding: 2rem;
 
 const Nav = styled.div`
 padding: 1rem 1rem 1rem;
-height: 7rem;
+height: 5rem;
 background-color: white;
 img{
   position: absolute;
   top: 1rem;
-  right: 2rem;
-  width: 4rem;
+  right: 1rem;
+  width: 2.7rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
   height: 5rem;
@@ -84,11 +84,11 @@ img{
 `;
 
 const Footer = styled.footer`
-padding: 1rem 0rem 3rem;
+padding: 0rem 0rem 3rem;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 1rem;
+font-size: 0.8rem;
 font-weight: 600;
 color: rgb(8, 28, 21);
 @media only screen and (min-width: 390px) and (max-width: 480px){

@@ -55,30 +55,34 @@ function Recipe() {
 
 const DetailWrapper = styled.div`
 margin-top: 5rem;
-margin-bottom: 5rem;
+margin-bottom: 2rem;
 display: flex;
 .active{
     background: rgb(82, 182, 154);
     color: white;
 }
 h2{
-    margin: 0rem 2rem 2rem;
-    color: rgb(8, 28, 21)
-}
-img{
-    margin: 0rem 0rem 0rem 2rem;
-}
-.carrots{
-    width: 2.5rem;
-    margin: 0rem 0rem;
-}
-h3{
+    margin: 3rem 2rem 1rem 3rem;
     font-size: 1rem;
     color: rgb(8, 28, 21)
 }
+img{
+    margin: 0rem 0rem 0rem 3rem;
+    width: 15rem;
+}
+.carrots{
+    width: 1.5rem;
+    margin: 0rem 0rem;
+}
+h3{
+    font-size: 0.6rem;
+    margin-right: 2rem;
+    line-height: 1rem;
+    color: rgb(8, 28, 21)
+}
 li{
-   font-size: 1.2rem;
-   line-height: 2.5rem;
+   font-size: 0.7rem;
+   line-height: 1rem;
    color: rgb(8, 28, 21)
 }
 ul{
@@ -200,12 +204,12 @@ ul{
 `;
 
 const Button = styled.button`
-width: 8rem;
+width: 6rem;
 height: 2rem;
 color: white;
 background: rgb(8, 28, 21);
 border: 2px solid black;
-margin: 0rem 2rem;
+margin: 0rem 1rem 0rem 0rem;
 font-weight: 600;
 @media only screen and (min-width: 390px) and (max-width: 480px){
     width: 6rem;
@@ -230,7 +234,7 @@ font-weight: 600;
 }
 `
 const Info = styled.div`
-margin: 0rem 1rem 1rem 5rem;
+margin: 20rem 0rem 0rem -14rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
     margin: 20rem 0rem 0rem -14rem;
 }

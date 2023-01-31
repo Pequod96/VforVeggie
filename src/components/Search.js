@@ -26,7 +26,7 @@ function Search() {
 
 
 const FormStyle = styled.form`
-margin: -4rem 6rem 0rem 50rem;
+margin: 3rem 3rem 3rem 3rem;
 div{
     width: 100%;
     position: relative;
@@ -34,7 +34,7 @@ div{
 input{
     border: 2px solid rgb(8, 28, 21);
     background: white;
-    font-size: 1.2rem;
+    font-size: 0.7rem;
     color: rgb(8, 28, 21);
     padding: 1rem 3rem;
     border-radius: 1rem;
