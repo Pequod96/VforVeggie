@@ -94,20 +94,35 @@ p{
 }
 }
 @media only screen and (min-width: 1024px){
-  margin: 4rem 20rem 0rem 2rem;
-  height: 12rem;
+  margin: 6rem 25rem 3rem 3rem;
 h2{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 p{
-  line-height: 1rem;
+  line-height: 1.2rem;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .peas{
-  top: 9rem;
+  top: 11rem;
   right: 3rem;
-  width: 30%;
+  width: 25%;
+}
+}
+@media only screen and (min-width: 1200px){
+  margin: 6rem 40rem 3rem 3rem;
+h2{
+  font-size: 2.5rem;
+}
+p{
+  line-height: 1.8rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.peas{
+top: 11rem;
+right: 5rem;
+width: 30%;
 }
 }
 `;
@@ -168,21 +183,36 @@ li{
   }
 }
 @media only screen and (min-width: 1024px){
-  margin: 12rem 2rem 0rem 22rem;
-  height: 12rem;
+  margin: 15rem 2rem 2rem 30rem;
 h2{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 li{
   margin-left: 1.5rem;
   padding: 2rem 1rem 0rem 1rem;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .fruits{
-  margin-top: -12rem;
-  width: 30%;
+  top: 53rem;
+  width: 25%;
   }
+}
+@media only screen and (min-width: 1200px){
+  margin: 25rem 2rem 2rem 36rem;
+h2{
+  font-size: 3rem;
+}
+li{
+  margin-left: 2rem;
+  padding: 3rem 1rem 0rem 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.fruits{
+  top: 65rem;
+  width: 30%;
+}
 }
 `;
 
@@ -242,21 +272,39 @@ p{
 }
 }
 @media only screen and (min-width: 1024px){
-  margin: 12rem 20rem 0rem 2rem;
+  margin:15rem 25rem 3rem 3rem;
 h2{
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 p{
   padding: 2rem 0rem;
-  line-height: 1rem;
+  line-height: 1.2rem;
   font-weight: 500;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .apple{
-  top: 58rem;
+  top: 67rem;
   right: 3rem;
-  width: 30%;
+  width: 25%;
+}
+}
+@media only screen and (min-width: 1200px){
+  margin: 32rem 40rem 3rem 3rem;
+h2{
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+p{
+  padding: 2rem 0rem 2rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.apple{
+  top: 93rem;
+  right: 5rem;
+  width: 29%;
 }
 }
 `;

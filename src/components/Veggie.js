@@ -98,6 +98,16 @@ const Wrapper = styled.div`
     width: 1.8rem;
   }
   }
+  @media only screen and (min-width: 1200px){
+    margin:10rem 2rem;
+  h3{
+    margin-left:2rem;
+    font-size: 2rem;
+  }
+  .carrots{
+    width: 2.5rem;
+  }
+  }
 `;
 
 const Card = styled.div`
@@ -167,6 +177,19 @@ p{
   font-weight: 600;
   font-size:0,1rem;
   height:60%;
+}
+}
+@media only screen and (min-width: 1200px){
+  min-height: 22rem;
+img{
+  border-radius: 2rem;
+  height: 90%;
+}
+p{
+  width:50%;
+  font-weight: 600;
+  font-size:0,5rem;
+  height:50%;
 }
 }
 `;

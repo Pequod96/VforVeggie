@@ -113,7 +113,7 @@ ul{
     margin-top: 2rem;
 }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
@@ -142,6 +142,61 @@ ul{
     margin-top: 2rem;
 }
 }
+@media only screen and (min-width: 1024px){
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+h2{
+    margin: 0rem 2rem 2rem;
+    font-size: 1.5rem;
+}
+img{
+    margin: 0rem 0rem 0rem 2rem;
+    width: 30rem;
+}
+.carrots{
+    width: 1.9rem;
+    margin: 0rem 0rem;
+}
+h3{
+    font-size: 0.9rem;
+    margin-right: 8rem;
+    line-height: 1.4rem;
+}
+li{
+   font-size: 1rem;
+   line-height: 1.2rem;
+}
+ul{
+    margin-top: 2rem;
+}
+}
+@media only screen and (min-width: 1200px){
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+h2{
+    margin: 0rem 2rem 2rem;
+}
+img{
+    margin: 0rem 0rem 0rem 2rem;
+}
+.carrots{
+    width: 2.5rem;
+    margin: 0rem 0rem;
+}
+h3{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+li{
+   font-size: 1.2rem;
+   line-height: 2.5rem;
+}
+ul{
+    margin-top: 2rem;
+}
+}
 `;
 
 const Button = styled.button`
@@ -160,12 +215,17 @@ font-weight: 600;
     margin: 0rem 1rem 0rem 0rem;
     font-weight: 600;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     width: 8rem;
     height: 2rem;
-    color: white;
-    border: 2px solid black;
     margin: 0rem 1rem 0rem 0rem;
+    font-weight: 600;
+}
+@media only screen and (min-width: 1024px){
+    margin: 0rem 2rem 0rem 0rem;
+}
+@media only screen and (min-width: 1200px){
+    margin: 0rem 2rem;
     font-weight: 600;
 }
 `
@@ -174,8 +234,14 @@ margin: 0rem 1rem 1rem 5rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
     margin: 20rem 0rem 0rem -14rem;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 768px){
     margin: 33rem 0rem 0rem -29rem;
+}
+@media only screen and (min-width: 1024px){
+    margin: 4rem 1rem 1rem 5rem;
+}
+@media only screen and (min-width: 1200px){
+    margin: 0rem 1rem 1rem 5rem;
 }
 `;
 

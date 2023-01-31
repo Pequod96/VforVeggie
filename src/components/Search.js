@@ -67,6 +67,12 @@ svg{
     font-size: 0.9rem;
 }
 }
+@media only screen and (min-width: 1200px){
+  margin: -4rem 6rem 0rem 50rem;
+  input{
+    font-size: 1.2rem;
+  }
+}
 `;
 
 export default Search;

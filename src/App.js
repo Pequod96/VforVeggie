@@ -37,6 +37,10 @@ padding: 2rem;
   font-size: 3rem;
   padding: 0rem;
 }
+@media only screen and (min-width: 1200px){
+  font-size: 3rem;
+  padding: 0rem;
+}
 `;
 
 const Nav = styled.div`
@@ -69,6 +73,13 @@ img{
     right: 0.5rem;
     width: 4rem;
   }
+}
+@media only screen and (min-width: 1200px){
+  height: 7rem;
+  img{
+    right: 2rem;
+    width: 4rem;
+}
 }
 `;
 
