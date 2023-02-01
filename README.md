@@ -27,4 +27,4 @@ Spoonacular.API
 
 ### TRY IT!
 
-<a href="https://pequod96.github.io/VforVeggie/"> </a>
+https://pequod96.github.io/VforVeggie/
