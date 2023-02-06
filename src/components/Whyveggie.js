@@ -59,6 +59,24 @@ right: 9rem;
 width: 40%;
 border-radius: 11rem;
 }
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  margin: 7rem 2rem 0rem 2rem;
+  height: 12rem;
+h2{
+  font-size: 1.3rem;
+}
+p{
+  line-height: 1rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  font-family: 'Helvetica';
+}
+.peas{
+  top: 26rem;
+  right: 6rem;
+  width: 45%;
+}
+}
 @media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 7rem 2rem 0rem 2rem;
   height: 12rem;
@@ -69,6 +87,7 @@ p{
   line-height: 1rem;
   font-weight: 600;
   font-size: 0.7rem;
+  font-family: 'Helvetica';
 }
 .peas{
   top: 25rem;
@@ -147,6 +166,25 @@ li{
   width: 40%;
   border-radius: 11rem;
 }
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  margin: 16rem 2rem 0rem 2rem;
+  height: 12rem;
+h2{
+  font-size: 1.3rem;
+}
+li{
+  margin-left: 1.5rem;
+  padding: 2rem 1rem 0rem 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  font-family: 'Helvetica';
+}
+.fruits{
+  margin-top: 3rem;
+  left: 6rem;
+  width: 45%;
+  }
+}
 @media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 16rem 2rem 0rem 2rem;
   height: 12rem;
@@ -158,6 +196,7 @@ li{
   padding: 2rem 1rem 0rem 1rem;
   font-weight: 600;
   font-size: 0.8rem;
+  font-family: 'Helvetica';
 }
 .fruits{
   margin-top: 3rem;
@@ -236,6 +275,25 @@ p{
   width: 40%;
   border-radius: 11rem;
 }
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  margin: 21rem 2rem 0rem 2rem;
+h2{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+p{
+  padding: 2rem 0rem;
+  line-height: 1rem;
+  font-weight: 600;
+  font-size: 0.7rem;
+  font-family: 'Helvetica';
+}
+.apple{
+  top:90rem;
+  right: 7rem;
+  width: 40%;
+}
+}
 @media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 19rem 2rem 0rem 2rem;
 h2{
@@ -247,6 +305,7 @@ p{
   line-height: 1rem;
   font-weight: 600;
   font-size: 0.7rem;
+  font-family: 'Helvetica';
 }
 .apple{
   top:87rem;

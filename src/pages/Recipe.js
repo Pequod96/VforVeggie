@@ -88,6 +88,37 @@ li{
 ul{
     margin-top: 2rem;
 }
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+h2{
+    margin: 2rem 2rem 1rem 2rem;
+    font-size: 1rem;
+}
+img{
+    margin: 0rem 0rem 0rem 2rem;
+    width:15rem;
+}
+.carrots{
+    width: 1.5rem;
+    margin: 0rem 0rem;
+}
+h3{
+    font-size: 0.6rem;
+    margin-right: 2rem;
+    line-height: 1rem;
+    font-family: 'Helvetica';
+}
+li{
+   font-size: 0.7rem;
+   line-height: 1rem;
+   font-family: 'Helvetica';
+}
+ul{
+    margin-top: 2rem;
+} 
+}
 @media only screen and (min-width: 390px) and (max-width: 480px){
     margin-top: 5rem;
     margin-bottom: 2rem;
@@ -108,10 +139,12 @@ h3{
     font-size: 0.6rem;
     margin-right: 2rem;
     line-height: 1rem;
+    font-family: 'Helvetica';
 }
 li{
    font-size: 0.7rem;
    line-height: 1rem;
+   font-family: 'Helvetica';
 }
 ul{
     margin-top: 2rem;
@@ -209,8 +242,16 @@ height: 2rem;
 color: white;
 background: rgb(8, 28, 21);
 border: 2px solid black;
-margin: 0rem 1rem 0rem 0rem;
+margin: 0rem 2rem;
 font-weight: 600;
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    border: 2px solid black;
+    margin: 0rem 1rem 0rem 0rem;
+    font-weight: 600;
+}
 @media only screen and (min-width: 390px) and (max-width: 480px){
     width: 6rem;
     height: 2rem;

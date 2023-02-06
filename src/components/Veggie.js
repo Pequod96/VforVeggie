@@ -74,6 +74,16 @@ const Wrapper = styled.div`
   .carrots{
     width: 1.5rem;
   }
+  @media only screen and (min-width: 320px) and (max-width: 375px){
+    margin:16rem 2rem;
+  h3{
+    margin-left:1rem;
+    font-size: 1.1rem;
+  }
+  .carrots{
+    width: 1.4rem;
+  }
+  }
   @media only screen and (min-width: 390px) and (max-width: 480px){
     margin:19rem 2rem;
   h3{
@@ -145,6 +155,19 @@ p{
   display:flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 375px){
+  min-height: 12rem;
+img{
+  border-radius: 3rem;
+  height: 90%;
+}
+p{
+  width:100%;
+  font-weight: 600;
+  font-size:0,1rem;
+  height:60%;
+}
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
   min-height: 12rem;
