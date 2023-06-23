@@ -22,17 +22,15 @@ const Logo = styled(Link)`
 text-decoration: none;
 font-size: 1.8rem;
 font-weight: 600;
-font-family: cursive;
+font-family: 'Montserrat';
 color: #96e6a1;
 padding: 0rem;
 @media only screen and (min-width: 320px) and (max-width: 375px){
  font-size: 1.8rem;
- font-family: 'Helvetica';
  padding: 0rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
  font-size: 1.8rem;
- font-family: 'Helvetica';
  padding: 0rem;
 }
 @media only screen and (min-width: 768px){

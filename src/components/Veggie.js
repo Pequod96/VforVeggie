@@ -22,7 +22,7 @@ function Veggie() {
   return (
     <div>
         <Wrapper>
-          <h3>Veggie Food <img className='carrots' src={carrots} alt="" /></h3>
+          <h3 id="veggiefood">Veggie Food <img className='carrots' src={carrots} alt="" /></h3>
           <Splide options={{
             perPage: 1,
             arrows: true,
@@ -75,7 +75,7 @@ const Wrapper = styled.div`
     width: 1.5rem;
   }
   @media only screen and (min-width: 320px) and (max-width: 375px){
-    margin:16rem 2rem;
+    margin:6rem 2rem;
   h3{
     margin-left:1rem;
     font-size: 1.1rem;
@@ -85,7 +85,7 @@ const Wrapper = styled.div`
   }
   }
   @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin:19rem 2rem;
+    margin:9rem 2rem;
   h3{
     margin-left:1rem;
     font-size: 1.2rem;
