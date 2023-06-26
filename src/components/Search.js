@@ -56,13 +56,13 @@ svg{
 }
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  margin: 3rem 3rem 3rem 3rem;
+  margin: 2rem 3rem 3rem 3rem;
   input{
     font-size: 0.7rem;
 }
 }
 @media only screen and (min-width: 768px){
-  margin: -2.5rem 4rem 0rem 25rem;
+  margin: -2.7rem 4rem 0rem 25rem;
   input{
     font-size: 0.7rem;
 }
@@ -74,7 +74,7 @@ svg{
 }
 }
 @media only screen and (min-width: 1200px){
-  margin: -4rem 6rem 0rem 50rem;
+  margin: -3.7rem 6rem 0rem 50rem;
   input{
     font-size: 1.2rem;
   }

@@ -154,7 +154,7 @@ p{
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 6rem 2rem 0rem 2rem;
-  height: 28rem;
+  height: 30rem;
 h2{
   font-size: 1.5rem;
   font-weight: 500;
@@ -162,9 +162,9 @@ h2{
 }
 p{
   text-align: center;
-  line-height: 1rem;
+  line-height: 1.3rem;
   font-weight: 300;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 .start-eating-well{
   width: 9rem;
@@ -176,6 +176,7 @@ p{
   border: none;
   border-radius: 1rem;
   transition-duration: 0.4s;
+  margin-top: 2rem;
 }
 .start-eating-well:hover{
   background-color:  #588c7e;
@@ -197,10 +198,10 @@ p{
   color: white;
 }
 .peas{
-  margin-top: 1.5rem;
-  margin-left: 2.9rem;
-  width: 65%;
-  height: 45%;
+  margin-top: 2rem;
+  margin-left: 3.2rem;
+  width: 60%;
+  height: 40%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
@@ -230,6 +231,7 @@ p{
   border: none;
   border-radius: 1rem;
   transition-duration: 0.4s;
+  margin-top: 1.5rem;
 }
 .start-eating-well:hover{
   background-color:  #588c7e;
@@ -383,7 +385,7 @@ li{
 }
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  height: 35rem;
+  height: 37rem;
   margin-top: 3rem;
 h2{
   text-align: center;
@@ -394,14 +396,14 @@ h2{
 li{
   padding-top: 0.2rem;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 .fruits{
   margin-top: 3rem;
-  margin-left: 5.5rem;
-  width: 50%;
-  height: 35%;
+  margin-left: 6.1rem;
+  width: 45%;
+  height: 30%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
@@ -540,14 +542,14 @@ h2{
   font-size: 1.5rem;
 }
 p{
-  line-height: 1.1rem;
-  font-weight: 400;
-  font-size: 0.7rem;
+  line-height: 1.2rem;
+  font-weight: 300;
+  font-size: 0.8rem;
   font-family: 'Montserrat';
   text-align: center;
 }
 .apple{
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-left: 3.3rem;
   width: 60%;
   height: 170%;
@@ -602,7 +604,7 @@ p{
   margin: 8rem 40rem 3rem 8rem;
 h2{
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 p{
   line-height: 1.7rem;

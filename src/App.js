@@ -24,32 +24,31 @@ font-size: 1.8rem;
 font-weight: 600;
 font-family: 'Montserrat';
 color: #96e6a1;
-padding: 0rem;
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 @media only screen and (min-width: 320px) and (max-width: 375px){
  font-size: 1.8rem;
- padding: 0rem;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
  font-size: 1.8rem;
- padding: 0rem;
 }
 @media only screen and (min-width: 768px){
  font-size: 1.8rem;
- padding: 0rem;
+ padding-left: 4rem;
 }
 @media only screen and (min-width: 1024px){
   font-size: 3rem;
-  padding: 0rem;
+  padding-left: 4rem;
 }
 @media only screen and (min-width: 1200px){
   font-size: 3rem;
-  padding: 0rem;
+  padding-left: 7rem;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 `;
 
 const Nav = styled.div`
 padding: 1rem 1rem 1rem;
-height: 5rem;
+height: 4rem;
 background-color: white;
 img{
   position: absolute;
@@ -58,35 +57,35 @@ img{
   width: 2.7rem;
 }
 @media only screen and (min-width: 320px) and (max-width: 375px){
-  height: 5rem;
+  height: 4rem;
   img{
     right: 1rem;
     width: 2.7rem;
   }
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  height: 5rem;
+  height: 4rem;
   img{
     right: 1rem;
     width: 2.7rem;
   }
 }
 @media only screen and (min-width: 768px){
-  height: 5rem;
+  height: 4rem;
   img{
     right: 1rem;
     width: 2.9rem;
   }
 }
 @media only screen and (min-width: 1024px){
-  height: 7rem;
+  height: 6rem;
   img{
     right: 0.5rem;
     width: 4rem;
   }
 }
 @media only screen and (min-width: 1200px){
-  height: 7rem;
+  height: 6rem;
   img{
     right: 2rem;
     width: 4rem;

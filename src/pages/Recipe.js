@@ -57,8 +57,9 @@ const DetailWrapper = styled.div`
 margin-top: 5rem;
 margin-bottom: 2rem;
 display: flex;
+background-color: rgba(88, 140, 126, 0.7);
 .active{
-    background: rgb(82, 182, 154);
+    background: #F57D22;
     color: white;
 }
 h2{
@@ -159,7 +160,7 @@ h2{
     font-size: 1.5rem;
 }
 img{
-    margin: 0rem 0rem 0rem 8rem;
+    margin: 0rem 0rem 0rem 0rem;
     width: 30rem;
 }
 .carrots{
@@ -180,58 +181,83 @@ ul{
 }
 }
 @media only screen and (min-width: 1024px){
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 5rem;
+    padding-top: 3rem;
     display: flex;
 h2{
-    margin: 0rem 2rem 2rem;
-    font-size: 1.5rem;
+    margin-left: 4rem;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
 }
 img{
-    margin: 0rem 0rem 0rem 2rem;
-    width: 30rem;
+    margin-left: 3rem;
+    width: 25rem;
+    border-radius: 3rem;
 }
 .carrots{
-    width: 1.9rem;
-    margin: 0rem 0rem;
-}
-h3{
-    font-size: 0.9rem;
-    margin-right: 8rem;
-    line-height: 1.4rem;
-}
-li{
-   font-size: 1rem;
-   line-height: 1.2rem;
-}
-ul{
-    margin-top: 2rem;
-}
-}
-@media only screen and (min-width: 1200px){
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    display: flex;
-h2{
-    margin: 0rem 2rem 2rem;
-}
-img{
-    margin: 0rem 0rem 0rem 2rem;
-}
-.carrots{
-    width: 2.5rem;
+    width: 3rem;
     margin: 0rem 0rem;
 }
 h3{
     font-size: 1rem;
     line-height: 2rem;
+    color: white;
+    font-weight: 400;
 }
 li{
-   font-size: 1.2rem;
-   line-height: 2.5rem;
+   font-size: 1rem;
+   line-height: 2rem;
+   color: white;
+   font-weight: 500;
 }
 ul{
     margin-top: 2rem;
+    margin-bottom: 10rem;
+}
+}
+@media only screen and (min-width: 1200px){
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    border-radius: 5rem;
+    padding-top: 3rem;
+    display: flex;
+h2{
+    margin-left: 6rem;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
+}
+img{
+    margin-left: 5rem;
+    width: 30rem;
+    border-radius: 3rem;
+}
+.carrots{
+    width: 3rem;
+    margin: 0rem 0rem;
+}
+h3{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+}
+li{
+   font-size: 1rem;
+   line-height: 2rem;
+   color: white;
+   font-weight: 500;
+}
+ul{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 }
 `;
@@ -241,14 +267,19 @@ width: 6rem;
 height: 2rem;
 color: white;
 background: rgb(8, 28, 21);
-border: 2px solid black;
+border: none;
+border-radius: 3rem;
 margin: 0rem 2rem;
 font-weight: 600;
+transition-duration: 0.4s;
+:hover{
+    background-color: #F57D22;
+    color: white;
+}
 @media only screen and (min-width: 320px) and (max-width: 375px){
     width: 6rem;
     height: 2rem;
     color: white;
-    border: 2px solid black;
     margin: 0rem 1rem 0rem 0rem;
     font-weight: 600;
 }
@@ -256,7 +287,6 @@ font-weight: 600;
     width: 6rem;
     height: 2rem;
     color: white;
-    border: 2px solid black;
     margin: 0rem 1rem 0rem 0rem;
     font-weight: 600;
 }
@@ -267,11 +297,20 @@ font-weight: 600;
     font-weight: 600;
 }
 @media only screen and (min-width: 1024px){
-    margin: 0rem 2rem 0rem 0rem;
+    margin: 0rem 1.5rem 0rem 0rem;
+    font-weight: 500;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    letter-spacing: 1px;
 }
 @media only screen and (min-width: 1200px){
     margin: 0rem 2rem;
-    font-weight: 600;
+    font-weight: 500;
+    width: 8rem;
+    height: 3rem;
+    color: white;
+    letter-spacing: 1px;
 }
 `
 const Info = styled.div`
@@ -286,7 +325,7 @@ margin: 20rem 0rem 0rem -14rem;
     margin: 4rem 1rem 1rem 5rem;
 }
 @media only screen and (min-width: 1200px){
-    margin: 0rem 1rem 1rem 5rem;
+    margin: 1.5rem 4rem 3rem 5rem;
 }
 `;
 
