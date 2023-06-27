@@ -153,8 +153,8 @@ p{
 }
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  margin: 6rem 2rem 0rem 2rem;
-  height: 30rem;
+  margin: 7rem 2rem 0rem 2rem;
+  height: 32rem;
 h2{
   font-size: 1.5rem;
   font-weight: 500;
@@ -198,10 +198,10 @@ p{
   color: white;
 }
 .peas{
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-left: 3.2rem;
   width: 60%;
-  height: 40%;
+  height: 35%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }

@@ -65,7 +65,7 @@ background-color: rgba(88, 140, 126, 0.7);
 h2{
     margin: 3rem 2rem 1rem 3rem;
     font-size: 1rem;
-    color: rgb(8, 28, 21)
+    color: white;
 }
 img{
     margin: 0rem 0rem 0rem 3rem;
@@ -77,75 +77,90 @@ img{
 }
 h3{
     font-size: 0.6rem;
-    margin-right: 2rem;
     line-height: 1rem;
-    color: rgb(8, 28, 21)
+    color: white;
 }
 li{
    font-size: 0.7rem;
    line-height: 1rem;
-   color: rgb(8, 28, 21)
+   color: white;
 }
 ul{
     margin-top: 2rem;
 }
 @media only screen and (min-width: 320px) and (max-width: 375px){
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
 h2{
-    margin: 2rem 2rem 1rem 2rem;
-    font-size: 1rem;
+    margin: 5rem 2rem 1rem 2.5rem;
+    font-size: o.8rem;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
 }
 img{
-    margin: 0rem 0rem 0rem 2rem;
-    width:15rem;
+    margin: 0rem 0rem 0rem 2.5rem;
+    width: 12rem;
+    border-radius: 3rem;
 }
 .carrots{
-    width: 1.5rem;
+    width: 1.9rem;
     margin: 0rem 0rem;
 }
 h3{
-    font-size: 0.6rem;
-    margin-right: 2rem;
-    line-height: 1rem;
-    font-family: 'Helvetica';
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+    margin-right: 1rem;
 }
 li{
-   font-size: 0.7rem;
+   font-size: 0.8rem;
    line-height: 1rem;
-   font-family: 'Helvetica';
+   color: white;
+   font-weight: 400;
 }
 ul{
     margin-top: 2rem;
 } 
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
 h2{
-    margin: 3rem 2rem 1rem 3rem;
+    margin: 5rem 2rem 1rem 4rem;
     font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
 }
 img{
-    margin: 0rem 0rem 0rem 3rem;
-    width:15rem;
+    margin: 0rem 0rem 0rem 3.5rem;
+    width: 15rem;
+    border-radius: 3rem;
 }
 .carrots{
-    width: 1.5rem;
+    width: 1.9rem;
     margin: 0rem 0rem;
 }
 h3{
-    font-size: 0.6rem;
-    margin-right: 2rem;
-    line-height: 1rem;
-    font-family: 'Helvetica';
+    font-size: 0.8rem;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+    margin-right: 3rem;
 }
 li{
-   font-size: 0.7rem;
-   line-height: 1rem;
-   font-family: 'Helvetica';
+   font-size: 0.8rem;
+   line-height: 1.2rem;
+   color: white;
+   margin-right: 0rem;
 }
 ul{
     margin-top: 2rem;
@@ -155,26 +170,35 @@ ul{
     margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
+    margin-right: 1rem;
+    margin-left: 1rem;
 h2{
-    margin: 3rem 2rem 1rem 8rem;
+    margin: 3rem 2rem 1rem 9rem;
     font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    color: white;
+    font-weight: 400;
 }
 img{
-    margin: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 8.5rem;
     width: 30rem;
+    border-radius: 3rem;
 }
 .carrots{
     width: 1.9rem;
     margin: 0rem 0rem;
 }
 h3{
-    font-size: 0.9rem;
-    margin-right: 8rem;
-    line-height: 1.4rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    font-weight: 400;
+    margin-right: 7rem;
 }
 li{
    font-size: 1rem;
    line-height: 1.2rem;
+   color: white;
 }
 ul{
     margin-top: 2rem;
@@ -269,7 +293,7 @@ color: white;
 background: rgb(8, 28, 21);
 border: none;
 border-radius: 3rem;
-margin: 0rem 2rem;
+margin: 0rem 1rem;
 font-weight: 600;
 transition-duration: 0.4s;
 :hover{
@@ -281,26 +305,29 @@ transition-duration: 0.4s;
     height: 2rem;
     color: white;
     margin: 0rem 1rem 0rem 0rem;
-    font-weight: 600;
+    font-weight: 400;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-    width: 6rem;
+    width: 5.5rem;
     height: 2rem;
     color: white;
-    margin: 0rem 1rem 0rem 0rem;
-    font-weight: 600;
+    margin: 2rem 1rem 0rem 0rem;
+    font-weight: 500;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px){
     width: 8rem;
-    height: 2rem;
+    height: 2.5rem;
     margin: 0rem 1rem 0rem 0rem;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 @media only screen and (min-width: 1024px){
     margin: 0rem 1.5rem 0rem 0rem;
     font-weight: 500;
-    width: 8rem;
-    height: 3rem;
+    width: 7.5rem;
+    height: 2.5rem;
     color: white;
     letter-spacing: 1px;
 }
@@ -316,13 +343,13 @@ transition-duration: 0.4s;
 const Info = styled.div`
 margin: 20rem 0rem 0rem -14rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin: 20rem 0rem 0rem -14rem;
+    margin: 20rem 0rem 0rem -15rem;
 }
 @media only screen and (min-width: 768px){
     margin: 33rem 0rem 0rem -29rem;
 }
 @media only screen and (min-width: 1024px){
-    margin: 4rem 1rem 1rem 5rem;
+    margin: 4rem 2rem 4rem 2rem;
 }
 @media only screen and (min-width: 1200px){
     margin: 1.5rem 4rem 3rem 5rem;
