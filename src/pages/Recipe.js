@@ -135,8 +135,8 @@ ul{
     margin-left: 1rem;
 h2{
     margin: 5rem 2rem 1rem 4rem;
-    font-size: 1rem;
-    letter-spacing: 1.5px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
     color: white;
     font-weight: 400;
 }
