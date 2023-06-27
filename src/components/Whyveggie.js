@@ -93,8 +93,7 @@ p{
 .peas{
   margin-top: 2rem;
   margin-left: 2.9rem;
-  width: 65%;
-  height: 35%;
+  width: 90%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
@@ -281,7 +280,7 @@ p{
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1366px){
   margin: 6rem 40rem 3rem 8rem;
 h2{
   font-size: 2.5rem;
@@ -337,6 +336,64 @@ p{
   box-shadow: 8px 10px 8px gray;
 }
 }
+@media only screen and (min-width: 1280px) and (max-width: 1440px){
+  margin: 6rem 40rem 3rem 8rem;
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+p{
+  margin-top: 1.5rem;
+  line-height: 1.7rem;
+  font-size: 1rem;
+  font-weight: 300;
+  width: 30rem;
+}
+.start-eating-well{
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #56CB56;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  transition-duration: 0.4s;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+  
+}
+.start-eating-well:hover{
+  background-color:  #588c7e;
+}
+.learn-more{
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: white;
+  color: #56CB56;
+  border: none;
+  border-radius: 1rem;
+  transition-duration: 0.4s;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+}
+.learn-more:hover{
+  background-color: #588c7e;
+  color: white;
+}
+.peas{
+  margin-top: -22rem;
+  margin-left: 38rem;
+  /*width: 60%;
+  height: 185%;*/
+  border-radius: 15rem;
+  box-shadow: 8px 10px 8px gray;
+}
+}
+/*@media only screen and (min-width: 1441px) and (max-width: 1680px)
+@media only screen and (min-width: 1681px)*/
 `;
 
 const SecondWrapper = styled.div`
@@ -458,7 +515,7 @@ li{
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1366px){
   height: 35rem;
   margin-top: 18rem;
 h2{
@@ -600,7 +657,7 @@ p{
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1366px){
   margin: 8rem 40rem 3rem 8rem;
 h2{
   font-size: 2.5rem;
