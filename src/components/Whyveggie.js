@@ -8,13 +8,17 @@ function Whyveggie() {
   return (
     <div>
       <FirstWrapper>
+      <div className="div-title-1">
          <h2>Should you become a vegetarian?</h2>
            <p>People choose a vegetarian diet for many reasons.
               For some people, eating vegetarian is a way to be healthier or to avoid hormones used in animal foods.
               For others, eating this way has more to do with religion, animal rights, or environmental concerns.</p>
               <Link to="#veggiefood" smooth><button className="start-eating-well">Start eating well</button></Link>
               <Link to="#secondwrapper" smooth><button className="learn-more">Learn more</button></Link>
+              </div>
+              <div className="div-peas">
               <img className="peas" src={peas} alt="" />
+              </div>
       </FirstWrapper>
       <SecondWrapper>
         <h2 id="secondwrapper">What are the health benefits of a vegetarian diet?</h2>
@@ -43,8 +47,7 @@ function Whyveggie() {
 
 
 const FirstWrapper = styled.div`
-margin: 7rem 2rem 0rem 2rem;
-height: 27rem;
+/*margin: 7rem 2rem 0rem 2rem;*/
 h2{
   font-size: 1.3rem;
   font-weight: 500;
@@ -91,15 +94,11 @@ p{
   color: white;
 }
 .peas{
-  margin-top: 2rem;
-  margin-left: 2.9rem;
-  width: 90%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
 @media only screen and (min-width: 320px) and (max-width: 375px){
-  margin: 6rem 2rem 0rem 2rem;
-  height: 27rem;
+  /*margin: 6rem 2rem 0rem 2rem;*/
 h2{
   font-size: 1.3rem;
   font-weight: 500;
@@ -143,17 +142,13 @@ p{
   color: white;
 }
 .peas{
-  margin-top: 2.5rem;
-  margin-left: 2.5rem;
-  width: 65%;
-  height: 35%;
+
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  margin: 7rem 2rem 0rem 2rem;
-  height: 32rem;
+  /*margin: 7rem 2rem 0rem 2rem;*/
 h2{
   font-size: 1.5rem;
   font-weight: 500;
@@ -197,17 +192,13 @@ p{
   color: white;
 }
 .peas{
-  margin-top: 3rem;
-  margin-left: 3.2rem;
-  width: 60%;
-  height: 35%;
+  
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
 }
 @media only screen and (min-width: 768px){
-  margin: 4rem 20rem 0rem 5rem;
-  height: 12rem;
+  
 h2{
   font-size: 1.5rem;
   font-weight: 600;
@@ -252,8 +243,6 @@ p{
   color: white;
 }
 .peas{
-  margin-top: -22rem;
-  margin-left: 25rem;
   width: 65%;
   height: 120%;
   border-radius: 15rem;
@@ -261,7 +250,7 @@ p{
 }
 }
 @media only screen and (min-width: 1024px){
-  margin: 6rem 30rem 3rem 5rem;
+  
   h2{
   font-size: 2.5rem;
   font-weight: 600;
@@ -272,16 +261,20 @@ p{
   font-size: 0.9rem;
 }
 .peas{
-  margin-top: -22rem;
-  margin-left: 34rem;
-  width: 70%;
-  height: 160%;
+  
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1366px){
-  margin: 6rem 40rem 3rem 8rem;
+@media only screen and (min-width: 1200px){
+  display: flex;
+  height: 20rem;
+  .div-title-1{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    width: 40rem;
+    align-items: center;
+  }
 h2{
   font-size: 2.5rem;
   font-weight: 600;
@@ -327,73 +320,20 @@ p{
   background-color: #588c7e;
   color: white;
 }
+
+.div-peas{
+  width: 22rem;
+  height: 22rem;
+  margin-top: 7rem;
+  margin-left: 0rem;
+}
 .peas{
-  margin-top: -22rem;
-  margin-left: 38rem;
-  width: 60%;
-  height: 185%;
+  width: 100%;
+  height: 100%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1280px) and (max-width: 1440px){
-  margin: 6rem 40rem 3rem 8rem;
-h2{
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-p{
-  margin-top: 1.5rem;
-  line-height: 1.7rem;
-  font-size: 1rem;
-  font-weight: 300;
-  width: 30rem;
-}
-.start-eating-well{
-  width: 12rem;
-  height: 3.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  background-color: #56CB56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-top: 2rem;
-  letter-spacing: 1px;
-  
-}
-.start-eating-well:hover{
-  background-color:  #588c7e;
-}
-.learn-more{
-  width: 12rem;
-  height: 3.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  background-color: white;
-  color: #56CB56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-left: 1rem;
-  letter-spacing: 1px;
-}
-.learn-more:hover{
-  background-color: #588c7e;
-  color: white;
-}
-.peas{
-  margin-top: -22rem;
-  margin-left: 38rem;
-  /*width: 60%;
-  height: 185%;*/
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
-}
-}
-/*@media only screen and (min-width: 1441px) and (max-width: 1680px)
-@media only screen and (min-width: 1681px)*/
 `;
 
 const SecondWrapper = styled.div`
@@ -515,7 +455,7 @@ li{
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1366px){
+@media only screen and (min-width: 1200px){
   height: 35rem;
   margin-top: 18rem;
 h2{
@@ -657,7 +597,7 @@ p{
   box-shadow: 8px 10px 8px gray;
 }
 }
-@media only screen and (min-width: 1366px){
+@media only screen and (min-width: 1200px){
   margin: 8rem 40rem 3rem 8rem;
 h2{
   font-size: 2.5rem;
