@@ -47,12 +47,20 @@ function Whyveggie() {
 
 
 const FirstWrapper = styled.div`
-/*margin: 7rem 2rem 0rem 2rem;*/
+margin-top: 7rem;
+  display: block;
+  height: 35rem;
+  .div-title-1{
+    margin-top: 3rem;
+    width: 20rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 h2{
   font-size: 1.3rem;
   font-weight: 500;
   text-align: center;
-  color: rgb(8, 28, 21)
+  color: rgb(8, 28, 21);
 }
 p{
   margin-top: 1rem;
@@ -93,112 +101,53 @@ p{
   background-color: #588c7e;
   color: white;
 }
-.peas{
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
-}
-@media only screen and (min-width: 320px) and (max-width: 375px){
-  /*margin: 6rem 2rem 0rem 2rem;*/
-h2{
-  font-size: 1.3rem;
-  font-weight: 500;
-  text-align: center;
-}
-p{
-  text-align: center;
-  line-height: 1rem;
-  font-weight: 300;
-  font-size: 0.7rem;
-}
-.start-eating-well{
-  width: 6.5rem;
-  height: 2.5rem;
-  font-size: 0.7rem;
-  font-weight: 500;
-  background-color: #56CB56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-top: 1.5rem;
-}
-.start-eating-well:hover{
-  background-color:  #588c7e;
-}
-.learn-more{
-  width: 6.5rem;
-  height: 2.5rem;
-  font-size: 0.7rem;
-  font-weight: 500;
-  background-color: white;
-  color: #56CB56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-left: 1.7rem;
-}
-.learn-more:hover{
-  background-color: #588c7e;
-  color: white;
+.div-peas{
+  width: 14.5rem;
+  height: 14.5rem;
+  margin-top: 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .peas{
-
+  width: 100%;
+  height: 100%;
   border-radius: 15rem;
   box-shadow: 8px 10px 8px gray;
-}
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
-  /*margin: 7rem 2rem 0rem 2rem;*/
+  
+  .div-title-1{
+    margin-top: 3rem;
+    width: 20rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 h2{
   font-size: 1.5rem;
-  font-weight: 500;
-  text-align: center;
 }
 p{
-  text-align: center;
   line-height: 1.3rem;
-  font-weight: 300;
   font-size: 0.8rem;
 }
 .start-eating-well{
   width: 9rem;
   height: 3rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  background-color: #56CB56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
   margin-top: 2rem;
-}
-.start-eating-well:hover{
-  background-color:  #588c7e;
 }
 .learn-more{
   width: 9rem;
   height: 3rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  background-color: white;
-  color: #56CB56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-left: 1rem;
-}
-.learn-more:hover{
-  background-color: #588c7e;
-  color: white;
-}
-.peas{
-  
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
 }
 }
 @media only screen and (min-width: 768px){
-  
+  display: flex;
+  height: 15rem;
+  margin-top: 0rem;
+  .div-title-1{
+    margin-left: 5rem;
+  }
 h2{
   font-size: 1.5rem;
   font-weight: 600;
@@ -207,131 +156,75 @@ h2{
 p{
   text-align: left;
   line-height: 1.2rem;
-  font-weight: 300;
   font-size: 0.8rem;
-  font-family: 'Montserrat';
 }
 .start-eating-well{
   width: 9rem;
   height: 3rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  background-color: #56CB56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
   margin-top: 1.5rem;
-}
-.start-eating-well:hover{
-  background-color:  #588c7e;
 }
 .learn-more{
   width: 9rem;
   height: 3rem;
   font-size: 0.8rem;
-  font-weight: 500;
-  background-color: white;
-  color: #56CB56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
   margin-left: 1rem;
 }
-.learn-more:hover{
-  background-color: #588c7e;
-  color: white;
-}
-.peas{
-  width: 65%;
-  height: 120%;
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
+.div-peas{
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
 }
 @media only screen and (min-width: 1024px){
-  
+  height: 20rem;
+  .div-title-1{
+    margin-left: 5rem;
+    margin-top: 3rem;
+    width: 30rem;
+  }
   h2{
   font-size: 2.5rem;
-  font-weight: 600;
 }
 p{
   line-height: 1.8rem;
-  font-weight: 300;
   font-size: 0.9rem;
 }
-.peas{
-  
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
+.start-eating-well{
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  letter-spacing: 1px;
+}
+.learn-more{
+  width: 12rem;
+  height: 3.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+}
+.div-peas{
+  width: 20rem;
+  height: 20rem;
+  margin-top: 7rem;
+  margin-left: 1rem;
 }
 }
 @media only screen and (min-width: 1200px){
-  display: flex;
-  height: 20rem;
   .div-title-1{
     margin-left: 8rem;
-    margin-top: 3rem;
-    width: 40rem;
-    align-items: center;
   }
-h2{
-  font-size: 2.5rem;
-  font-weight: 600;
-}
 p{
   margin-top: 1.5rem;
   line-height: 1.7rem;
   font-size: 1rem;
-  font-weight: 300;
-  width: 30rem;
 }
-.start-eating-well{
-  width: 12rem;
-  height: 3.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  background-color: #56CB56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-top: 2rem;
-  letter-spacing: 1px;
-  
-}
-.start-eating-well:hover{
-  background-color:  #588c7e;
-}
-.learn-more{
-  width: 12rem;
-  height: 3.5rem;
-  font-size: 1.1rem;
-  font-weight: 600;
-  background-color: white;
-  color: #56CB56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-left: 1rem;
-  letter-spacing: 1px;
-}
-.learn-more:hover{
-  background-color: #588c7e;
-  color: white;
-}
-
 .div-peas{
   width: 22rem;
   height: 22rem;
-  margin-top: 7rem;
   margin-left: 0rem;
-}
-.peas{
-  width: 100%;
-  height: 100%;
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
 }
 }
 `;
