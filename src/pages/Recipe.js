@@ -266,7 +266,6 @@ transition-duration: 0.4s;
     width: 5.5rem;
     height: 2rem;
     color: white;
-    margin: 2rem 1rem 0rem 0rem;
     font-weight: 500;
     font-size: 0.6rem;
     letter-spacing: 1px;
@@ -298,7 +297,7 @@ transition-duration: 0.4s;
 const Info = styled.div`
 margin: 20rem 0rem 0rem -14rem;
 @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin: 20rem 0rem 0rem -15rem;
+    margin: 20rem 2rem 0rem -15rem;
 }
 @media only screen and (min-width: 768px){
     margin: 33rem 0rem 0rem -29rem;
@@ -307,7 +306,7 @@ margin: 20rem 0rem 0rem -14rem;
     margin: 4rem 2rem 4rem 2rem;
 }
 @media only screen and (min-width: 1200px){
-    margin: 1.5rem 4rem 3rem 5rem;
+    margin: 3.5rem 4rem 3rem 5rem;
 }
 `;
 
