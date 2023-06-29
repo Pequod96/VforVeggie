@@ -115,7 +115,7 @@ const Wrapper = styled.div`
   }
   }
   @media only screen and (min-width: 1200px){
-    margin:15rem 2rem;
+    margin:10rem 2rem;
   h3{
     margin-left:2rem;
     font-size: 2rem;
