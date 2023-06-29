@@ -58,6 +58,7 @@ margin-top: 5rem;
 margin-bottom: 2rem;
 display: flex;
 background-color: rgba(88, 140, 126, 0.7);
+border-radius: 2rem;
 .active{
     background: #F57D22;
     color: white;
@@ -87,45 +88,6 @@ li{
 }
 ul{
     margin-top: 2rem;
-}
-@media only screen and (min-width: 320px) and (max-width: 375px){
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: flex;
-    margin-right: 1rem;
-    margin-left: 1rem;
-h2{
-    margin: 5rem 2rem 1rem 2.5rem;
-    font-size: o.8rem;
-    letter-spacing: 1px;
-    color: white;
-    font-weight: 400;
-}
-img{
-    margin: 0rem 0rem 0rem 2.5rem;
-    width: 12rem;
-    border-radius: 3rem;
-}
-.carrots{
-    width: 1.9rem;
-    margin: 0rem 0rem;
-}
-h3{
-    font-size: 0.8rem;
-    line-height: 2rem;
-    color: white;
-    font-weight: 400;
-    margin-right: 1rem;
-}
-li{
-   font-size: 0.8rem;
-   line-height: 1rem;
-   color: white;
-   font-weight: 400;
-}
-ul{
-    margin-top: 2rem;
-} 
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
     margin-top: 1rem;
@@ -299,13 +261,6 @@ transition-duration: 0.4s;
 :hover{
     background-color: #F57D22;
     color: white;
-}
-@media only screen and (min-width: 320px) and (max-width: 375px){
-    width: 6rem;
-    height: 2rem;
-    color: white;
-    margin: 0rem 1rem 0rem 0rem;
-    font-weight: 400;
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
     width: 5.5rem;

@@ -50,9 +50,14 @@ grid-gap: 3rem;
 `;
 
 const Card = styled.div`
+transition: transform 0.3s ease;
+  :hover {
+    transform: scale(1.1);
+  }
 img{
     width: 100%;
     border-radius: 7rem;
+    box-shadow: 8px 10px 8px gray;
 }
 a{
     text-decoration: none;

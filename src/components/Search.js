@@ -36,7 +36,7 @@ input{
     background: white;
     font-size: 0.7rem;
     color: rgb(8, 28, 21);
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
     border-radius: 1rem;
     outline: none;
     width: 100%;
@@ -48,12 +48,6 @@ svg{
     left: 0%;
     transform: translate(100%, -50%);
     color:rgb(8, 28, 21);
-}
-@media only screen and (min-width: 320px) and (max-width: 375px){
-  margin: 3rem 3rem 3rem 3rem;
-  input{
-    font-size: 0.6rem;
-}
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
   margin: 3rem 3rem 3rem 3rem;
@@ -78,6 +72,9 @@ svg{
   input{
     font-size: 1.2rem;
   }
+}
+@media only screen and (min-width: 1600px){
+  margin: -3.7rem 6rem 0rem 70rem;
 }
 `;
 

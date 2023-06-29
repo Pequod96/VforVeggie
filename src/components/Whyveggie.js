@@ -44,21 +44,21 @@ function Whyveggie() {
         </div>
       </SecondWrapper>
       <ThirdWrapper>
-      <div className="div-title-3">
-        <h2>How to become a vegetarian</h2>
-        <p>
-          Should you go cold tofurkey? That’s up to you. You may choose to mark
-          your calendar with the date you’ll start your vegetarian diet. Or you
-          may decide to go with a more gradual approach. You may find it works
-          best to first give up red meat, then poultry, then fish. Or you may
-          switch over your pantry to all vegetarian to start with a clean slate.
-          You may also choose certain days of the week to go vegetarian, like
-          practicing Meatless Mondays. You can slowly add more days as you get
-          more used to following this diet.
-        </p>
+        <div className="div-title-3">
+          <h2>How to become a vegetarian</h2>
+          <p>
+            Should you go cold tofurkey? That’s up to you. You may choose to
+            mark your calendar with the date you’ll start your vegetarian diet.
+            Or you may decide to go with a more gradual approach. You may find
+            it works best to first give up red meat, then poultry, then fish. Or
+            you may switch over your pantry to all vegetarian to start with a
+            clean slate. You may also choose certain days of the week to go
+            vegetarian, like practicing Meatless Mondays. You can slowly add
+            more days as you get more used to following this diet.
+          </p>
         </div>
         <div className="div-apple">
-        <img className="apple" src={apple} alt="" />
+          <img className="apple" src={apple} alt="" />
         </div>
       </ThirdWrapper>
     </div>
@@ -383,65 +383,68 @@ const ThirdWrapper = styled.div`
     font-weight: 600;
     font-size: 1.2rem;
     color: rgb(8, 28, 21);
+    text-align: center;
   }
   p {
     margin-top: 1.5rem;
     line-height: 1rem;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 0.7rem;
     font-family: "Montserrat";
+    text-align: center;
+  }
+  .div-apple {
+    width: 14.5rem;
+    height: 14.5rem;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
   .apple {
     width: 100%;
-  height: 100%;
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
+    height: 100%;
+    border-radius: 15rem;
+    box-shadow: 8px 10px 8px gray;
   }
   @media only screen and (min-width: 390px) and (max-width: 480px) {
+    .div-title-3 {
+      margin-top: 3rem;
+      width: 20rem;
+      margin-right: auto;
+      margin-left: auto;
+    }
     h2 {
-      text-align: center;
-      padding-top: 5rem;
-      font-weight: 500;
       font-size: 1.5rem;
     }
     p {
-      line-height: 1.2rem;
-      font-weight: 300;
+      line-height: 1.3rem;
       font-size: 0.8rem;
-      font-family: "Montserrat";
-      text-align: center;
-    }
-    .apple {
-      margin-top: 5rem;
-      margin-left: 3.3rem;
-      width: 60%;
-      height: 170%;
-      border-radius: 15rem;
-      box-shadow: 8px 10px 8px gray;
     }
   }
   @media only screen and (min-width: 768px) {
     display: flex;
     height: 25rem;
     margin-top: 0rem;
-    .div-title-3{
+    .div-title-3 {
       margin-top: 3rem;
       margin-left: 5rem;
       width: 20rem;
     }
     h2 {
       font-size: 1.5rem;
-  font-weight: 600;
+      font-weight: 600;
+      text-align: left;
     }
     p {
       line-height: 1.2rem;
       font-weight: 300;
       font-size: 0.8rem;
       font-family: "Montserrat";
+      text-align: left;
     }
     .div-apple {
       width: 14.5rem;
-    height: 14.5rem;
+      height: 14.5rem;
       margin-top: 7rem;
       margin-left: 5rem;
     }
@@ -485,69 +488,3 @@ const ThirdWrapper = styled.div`
 `;
 
 export default Whyveggie;
-
-
-/*.div-title-1 {
-  margin-top: 3rem;
-  width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
-}
-h2 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  text-align: center;
-  color: rgb(8, 28, 21);
-}
-p {
-  margin-top: 1rem;
-  text-align: center;
-  line-height: 1rem;
-  font-weight: 300;
-  font-size: 0.7rem;
-  font-family: "Montserrat";
-}
-.start-eating-well {
-  width: 6.5rem;
-  height: 2.5rem;
-  font-size: 0.7rem;
-  font-weight: 500;
-  background-color: #56cb56;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-top: 1rem;
-}
-.start-eating-well:hover {
-  background-color: #588c7e;
-}
-.learn-more {
-  width: 6.5rem;
-  height: 2.5rem;
-  font-size: 0.7rem;
-  font-weight: 500;
-  background-color: white;
-  color: #56cb56;
-  border: none;
-  border-radius: 1rem;
-  transition-duration: 0.4s;
-  margin-left: 1rem;
-}
-.learn-more:hover {
-  background-color: #588c7e;
-  color: white;
-}
-.div-peas {
-  width: 14.5rem;
-  height: 14.5rem;
-  margin-top: 2.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.peas {
-  width: 100%;
-  height: 100%;
-  border-radius: 15rem;
-  box-shadow: 8px 10px 8px gray;
-} */

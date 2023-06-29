@@ -70,25 +70,17 @@ const Wrapper = styled.div`
   h3{
     margin-left: 1rem;
     font-size: 1.2rem;
+    letter-spacing: 1px;
   }
   .carrots{
     width: 1.5rem;
   }
-  @media only screen and (min-width: 320px) and (max-width: 375px){
-    margin:6rem 2rem;
-  h3{
-    margin-left:1rem;
-    font-size: 1.1rem;
-  }
-  .carrots{
-    width: 1.4rem;
-  }
-  }
   @media only screen and (min-width: 390px) and (max-width: 480px){
-    margin:9rem 2rem;
+    margin:5rem 2rem;
   h3{
     margin-left:1rem;
     font-size: 1.2rem;
+    text-align: center;
   }
   .carrots{
     width: 1.5rem;
@@ -97,8 +89,9 @@ const Wrapper = styled.div`
   @media only screen and (min-width: 768px){
     margin:6rem 2rem;
   h3{
-    margin-left:1rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
+    text-align: left;
   }
   .carrots{
     width: 1.8rem;
@@ -115,7 +108,7 @@ const Wrapper = styled.div`
   }
   }
   @media only screen and (min-width: 1200px){
-    margin:10rem 2rem;
+    margin:8rem 2rem;
   h3{
     margin-left:2rem;
     font-size: 2rem;
@@ -127,17 +120,24 @@ const Wrapper = styled.div`
 `;
 
 const Card = styled.div`
-  min-height: 18rem;
-  border-radius: 3rem;
+  min-height: 22rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 3.5rem;
   overflow: hidden;
   position: relative;
+  perspective: 900px;
+  transition: transform 0.3s ease;
+  :hover {
+    transform: scale(1.1);
+  }
 img{
   border-radius: 3rem;
   position: absolute;
   left:0rem;
   width: 100%;
-  height: 90%;
   object-fit: cover;
+  box-shadow: 6px 8px 6px gray;
 }
 p{
   position: absolute;
@@ -155,19 +155,6 @@ p{
   display:flex;
   justify-content: center;
   align-items: center;
-}
-@media only screen and (min-width: 320px) and (max-width: 375px){
-  min-height: 12rem;
-img{
-  border-radius: 3rem;
-  height: 90%;
-}
-p{
-  width:100%;
-  font-weight: 600;
-  font-size:0,1rem;
-  height:60%;
-}
 }
 @media only screen and (min-width: 390px) and (max-width: 480px){
   min-height: 12rem;
