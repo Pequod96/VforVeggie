@@ -13,7 +13,7 @@ function App() {
         <img src={vegetables} alt="" />
        </Nav>
          <Pages />
-         <Footer> Samuele Toro <span>&#174;</span></Footer>
+         <Footer> Designed by Samuele Toro <strong><span>&#174;</span></strong></Footer>
        </div>
   );
 }
@@ -88,18 +88,19 @@ padding: 0rem 0rem 3rem;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 0.8rem;
-font-weight: 600;
+font-size: 0.9rem;
+font-weight: 500;
+letter-spacing: 1px;
 color: rgb(8, 28, 21);
 @media only screen and (min-width: 390px) and (max-width: 480px){
   padding: 0rem 0rem 3rem;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 @media only screen and (min-width: 768px){
   padding: 0rem 0rem 3rem;
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 `;
 

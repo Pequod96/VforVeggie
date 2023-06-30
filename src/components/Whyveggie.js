@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import { HashLink as Link } from "react-router-hash-link";
-import peas from "../images/20587-peas-playground-of-love.gif";
-import fruit from "../images/132618-healthy-food-for-diet-fitness.gif";
-import apple from "../images/124102-loading-screen.gif";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 function Whyveggie() {
   return (
@@ -24,12 +22,30 @@ function Whyveggie() {
           </Link>
         </div>
         <div className="div-peas">
-          <img className="peas" src={peas} alt="" />
+        <Player
+            hover="true"
+            src="https://assets2.lottiefiles.com/private_files/lf30_cdui7M.json"
+            style={{
+              height: '350px',
+              borderRadius: "15rem",
+              backgroundColor: 'white',
+              boxShadow: "8px 10px 8px gray",
+            }}
+          ></Player>
         </div>
       </FirstWrapper>
       <SecondWrapper>
         <div className="div-fruits">
-          <img className="fruits" src={fruit} alt="" />
+          <Player
+            hover="true"
+            src="https://assets2.lottiefiles.com/packages/lf20_kl8ExNwnCB.json"
+            style={{
+              height: '350px',
+              backgroundColor: "#96e6a1",
+              borderRadius: "15rem",
+              boxShadow: "8px 10px 8px gray",
+            }}
+          ></Player>
         </div>
         <div className="div-title-2">
           <h2 id="secondwrapper">
@@ -58,7 +74,16 @@ function Whyveggie() {
           </p>
         </div>
         <div className="div-apple">
-          <img className="apple" src={apple} alt="" />
+        <Player
+            hover="true"
+            src="https://assets2.lottiefiles.com/packages/lf20_EY6Lg2udYI.json"
+            style={{
+              height: '350px',
+              borderRadius: "15rem",
+              backgroundColor: 'white',
+              boxShadow: "8px 10px 8px gray",
+            }}
+          ></Player>
         </div>
       </ThirdWrapper>
     </div>
@@ -226,7 +251,7 @@ const FirstWrapper = styled.div`
     .div-peas {
       width: 20rem;
       height: 20rem;
-      margin-top: 7rem;
+      margin-top: 6rem;
       margin-left: 1rem;
     }
   }
@@ -466,8 +491,8 @@ const ThirdWrapper = styled.div`
     .div-apple {
       width: 20rem;
       height: 20rem;
-      margin-top: 8rem;
-      margin-left: 4rem;
+      margin-top: 5rem;
+      margin-left: 7rem;
     }
   }
   @media only screen and (min-width: 1200px) {
@@ -482,7 +507,6 @@ const ThirdWrapper = styled.div`
     .div-apple {
       width: 22rem;
       height: 22rem;
-      margin-left: 7rem;
     }
   }
 `;
