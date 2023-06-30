@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VforVeggie/static/css/main.b6c896e1.css",
-    "main.js": "/VforVeggie/static/js/main.24e0c6ac.js",
+    "main.js": "/VforVeggie/static/js/main.b022b029.js",
     "static/media/526-paper-bag-vegetables-lineal.gif": "/VforVeggie/static/media/526-paper-bag-vegetables-lineal.bca23481be406a73c15a.gif",
     "static/media/carrots.ico": "/VforVeggie/static/media/carrots.865416b9fd1120404ebc.ico",
     "index.html": "/VforVeggie/index.html",
     "main.b6c896e1.css.map": "/VforVeggie/static/css/main.b6c896e1.css.map",
-    "main.24e0c6ac.js.map": "/VforVeggie/static/js/main.24e0c6ac.js.map"
+    "main.b022b029.js.map": "/VforVeggie/static/js/main.b022b029.js.map"
   },
   "entrypoints": [
     "static/css/main.b6c896e1.css",
-    "static/js/main.24e0c6ac.js"
+    "static/js/main.b022b029.js"
   ]
 }
