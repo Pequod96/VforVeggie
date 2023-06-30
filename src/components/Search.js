@@ -49,7 +49,7 @@ svg{
     transform: translate(100%, -50%);
     color:rgb(8, 28, 21);
 }
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
   margin: 3rem 3rem 3rem 3rem;
   input{
     font-size: 0.7rem;

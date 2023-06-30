@@ -75,7 +75,7 @@ const Wrapper = styled.div`
   .carrots{
     width: 1.5rem;
   }
-  @media only screen and (min-width: 390px) and (max-width: 480px){
+  @media only screen and (min-width: 375px) and (max-width: 480px){
     margin:5rem 2rem;
   h3{
     margin-left:1rem;
@@ -156,7 +156,7 @@ p{
   justify-content: center;
   align-items: center;
 }
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
   min-height: 12rem;
 img{
   border-radius: 3rem;

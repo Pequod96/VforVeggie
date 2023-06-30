@@ -25,7 +25,7 @@ font-weight: 600;
 font-family: 'Montserrat';
 color: #96e6a1;
 text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
  font-size: 1.8rem;
 }
 @media only screen and (min-width: 768px){
@@ -53,7 +53,7 @@ img{
   right: 1rem;
   width: 2.7rem;
 }
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
   height: 4rem;
   img{
     right: 1rem;
@@ -92,7 +92,7 @@ font-size: 0.9rem;
 font-weight: 500;
 letter-spacing: 1px;
 color: rgb(8, 28, 21);
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
   padding: 0rem 0rem 3rem;
   font-size: 0.9rem;
   font-weight: 500;

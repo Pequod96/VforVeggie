@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { HashLink as Link } from "react-router-hash-link";
-import { Player } from "@lottiefiles/react-lottie-player";
+
+require("@lottiefiles/lottie-player");
 
 function Whyveggie() {
   return (
@@ -22,30 +23,30 @@ function Whyveggie() {
           </Link>
         </div>
         <div className="div-peas">
-        <Player
+          <lottie-player
             hover="true"
             src="https://assets2.lottiefiles.com/private_files/lf30_cdui7M.json"
             style={{
-              height: '350px',
+              width: "100%",
               borderRadius: "15rem",
-              backgroundColor: 'white',
               boxShadow: "8px 10px 8px gray",
+              backgroundColor: "white",
             }}
-          ></Player>
+          ></lottie-player>
         </div>
       </FirstWrapper>
       <SecondWrapper>
         <div className="div-fruits">
-          <Player
+          <lottie-player
             hover="true"
             src="https://assets2.lottiefiles.com/packages/lf20_kl8ExNwnCB.json"
             style={{
-              height: '350px',
-              backgroundColor: "#96e6a1",
+              width: "100%",
               borderRadius: "15rem",
               boxShadow: "8px 10px 8px gray",
+              backgroundColor: "#96e6a1",
             }}
-          ></Player>
+          ></lottie-player>
         </div>
         <div className="div-title-2">
           <h2 id="secondwrapper">
@@ -74,16 +75,16 @@ function Whyveggie() {
           </p>
         </div>
         <div className="div-apple">
-        <Player
+          <lottie-player
             hover="true"
-            src="https://assets2.lottiefiles.com/packages/lf20_EY6Lg2udYI.json"
+            src="https://assets1.lottiefiles.com/packages/lf20_EY6Lg2udYI.json"
             style={{
-              height: '350px',
+              width: "100%",
               borderRadius: "15rem",
-              backgroundColor: 'white',
               boxShadow: "8px 10px 8px gray",
+              backgroundColor: "white",
             }}
-          ></Player>
+          ></lottie-player>
         </div>
       </ThirdWrapper>
     </div>
@@ -123,8 +124,9 @@ const FirstWrapper = styled.div`
     color: white;
     border: none;
     border-radius: 1rem;
-    transition-duration: 0.4s;
+    transition: 0.7s;
     margin-top: 1rem;
+    box-shadow: 6px 8px 6px #8AFFC1;
   }
   .start-eating-well:hover {
     background-color: #588c7e;
@@ -138,8 +140,9 @@ const FirstWrapper = styled.div`
     color: #56cb56;
     border: none;
     border-radius: 1rem;
-    transition-duration: 0.4s;
+    transition: 0.7s;
     margin-left: 1rem;
+    box-shadow: 6px 8px 6px #8AFFC1;
   }
   .learn-more:hover {
     background-color: #588c7e;
@@ -158,7 +161,7 @@ const FirstWrapper = styled.div`
     border-radius: 15rem;
     box-shadow: 8px 10px 8px gray;
   }
-  @media only screen and (min-width: 390px) and (max-width: 480px) {
+  @media only screen and (min-width: 375px) and (max-width: 480px) {
     .div-title-1 {
       margin-top: 3rem;
       width: 20rem;
@@ -292,7 +295,7 @@ const SecondWrapper = styled.div`
     border-radius: 15rem;
     box-shadow: 8px 10px 8px gray;
   }
-  @media only screen and (min-width: 390px) and (max-width: 480px) {
+  @media only screen and (min-width: 375px) and (max-width: 480px) {
     display: flex;
     flex-direction: column-reverse;
     .div-title-2 {
@@ -431,7 +434,7 @@ const ThirdWrapper = styled.div`
     border-radius: 15rem;
     box-shadow: 8px 10px 8px gray;
   }
-  @media only screen and (min-width: 390px) and (max-width: 480px) {
+  @media only screen and (min-width: 375px) and (max-width: 480px) {
     .div-title-3 {
       margin-top: 3rem;
       width: 20rem;
@@ -491,7 +494,7 @@ const ThirdWrapper = styled.div`
     .div-apple {
       width: 20rem;
       height: 20rem;
-      margin-top: 5rem;
+      margin-top: 7rem;
       margin-left: 7rem;
     }
   }

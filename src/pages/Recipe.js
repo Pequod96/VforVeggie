@@ -296,7 +296,7 @@ transition-duration: 0.4s;
 `
 const Info = styled.div`
 margin: 20rem 0rem 0rem -14rem;
-@media only screen and (min-width: 390px) and (max-width: 480px){
+@media only screen and (min-width: 375px) and (max-width: 480px){
     margin: 20rem 2rem 0rem -15rem;
 }
 @media only screen and (min-width: 768px){
