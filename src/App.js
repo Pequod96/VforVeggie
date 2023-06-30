@@ -8,7 +8,7 @@ function App() {
   return (
        <div className="App">
        <Nav>
-        <Logo to={'/VforVeggie'}>V FOR VEGGIE</Logo>
+        <Logo to={'/VforVeggie'}>V <span class="colored-letter">FOR</span> V<span class="colored-letter">EGGIE</span></Logo>
         <Search /> 
         <img src={vegetables} alt="" />
        </Nav>
@@ -23,8 +23,11 @@ text-decoration: none;
 font-size: 1.8rem;
 font-weight: 600;
 font-family: 'Montserrat';
-color: #96e6a1;
-text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+color: #d4fc79;
+text-shadow: -1px 0 rgb(8, 28, 21), 0 1px rgb(8, 28, 21), 1px 0 rgb(8, 28, 21), 0 -1px rgb(8, 28, 21);
+.colored-letter{
+  color: #96e6a1;
+}
 @media only screen and (min-width: 375px) and (max-width: 480px){
  font-size: 1.8rem;
 }
@@ -39,7 +42,6 @@ text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 @media only screen and (min-width: 1200px){
   font-size: 3rem;
   padding-left: 7rem;
-  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 `;
 

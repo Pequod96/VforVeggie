@@ -22,7 +22,7 @@ function Veggie() {
   return (
     <div>
         <Wrapper>
-          <h3 id="veggiefood">Veggie Food <img className='carrots' src={carrots} alt="" /></h3>
+          <h3 id="veggiefood"><span class="colored-letter">V</span>eggie Food <img className='carrots' src={carrots} alt="" /></h3>
           <Splide options={{
             perPage: 1,
             arrows: true,
@@ -71,6 +71,10 @@ const Wrapper = styled.div`
     margin-left: 1rem;
     font-size: 1.2rem;
     letter-spacing: 1px;
+  }
+  .colored-letter{
+    color: #d4fc79;
+    text-shadow: -1px 0 rgb(8, 28, 21), 0 1px rgb(8, 28, 21), 1px 0 rgb(8, 28, 21), 0 -1px rgb(8, 28, 21);
   }
   .carrots{
     width: 1.5rem;

@@ -32,10 +32,10 @@ div{
     position: relative;
 }
 input{
-    border: 2px solid rgb(8, 28, 21);
+    border: 2px solid #588c7e;
     background: white;
     font-size: 0.7rem;
-    color: rgb(8, 28, 21);
+    color: #588c7e;
     padding: 1rem 2.5rem;
     border-radius: 1rem;
     outline: none;
@@ -47,7 +47,7 @@ svg{
     top: 50%;
     left: 0%;
     transform: translate(100%, -50%);
-    color:rgb(8, 28, 21);
+    color: #588c7e;
 }
 @media only screen and (min-width: 375px) and (max-width: 480px){
   margin: 3rem 3rem 3rem 3rem;

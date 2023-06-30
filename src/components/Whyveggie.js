@@ -8,7 +8,7 @@ function Whyveggie() {
     <div>
       <FirstWrapper>
         <div className="div-title-1">
-          <h2>Should you become a vegetarian?</h2>
+          <h2>Should you become a <span class="colored-letter">V</span>egetarian?</h2>
           <p>
             People choose a vegetarian diet for many reasons. For some people,
             eating vegetarian is a way to be healthier or to avoid hormones used
@@ -29,7 +29,7 @@ function Whyveggie() {
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px gray",
+              boxShadow: "8px 10px 8px #d4fc79",
               backgroundColor: "white",
             }}
           ></lottie-player>
@@ -43,14 +43,14 @@ function Whyveggie() {
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px gray",
-              backgroundColor: "#96e6a1",
+              boxShadow: "8px 10px 8px #96e6a1",
+              backgroundColor: "#d4fc79",
             }}
           ></lottie-player>
         </div>
         <div className="div-title-2">
           <h2 id="secondwrapper">
-            What are the health benefits of a vegetarian diet?
+            What are the health benefits of a <span class="colored-letter">V</span>egetarian diet?
           </h2>
           <ul>
             <li>Good for heart health</li>
@@ -62,7 +62,7 @@ function Whyveggie() {
       </SecondWrapper>
       <ThirdWrapper>
         <div className="div-title-3">
-          <h2>How to become a vegetarian</h2>
+          <h2>How to become a <span class="colored-letter">V</span>egetarian</h2>
           <p>
             Should you go cold tofurkey? That’s up to you. You may choose to
             mark your calendar with the date you’ll start your vegetarian diet.
@@ -81,7 +81,7 @@ function Whyveggie() {
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px gray",
+              boxShadow: "8px 10px 8px #96e6a1",
               backgroundColor: "white",
             }}
           ></lottie-player>
@@ -107,6 +107,10 @@ const FirstWrapper = styled.div`
     text-align: center;
     color: rgb(8, 28, 21);
   }
+  .colored-letter{
+    color: #d4fc79;
+    text-shadow: -1px 0 rgb(8, 28, 21), 0 1px rgb(8, 28, 21), 1px 0 rgb(8, 28, 21), 0 -1px rgb(8, 28, 21);
+  }
   p {
     margin-top: 1rem;
     text-align: center;
@@ -120,16 +124,17 @@ const FirstWrapper = styled.div`
     height: 2.5rem;
     font-size: 0.7rem;
     font-weight: 500;
-    background-color: #56cb56;
+    background-color: rgb(8, 28, 21);
     color: white;
     border: none;
     border-radius: 1rem;
     transition: 0.7s;
     margin-top: 1rem;
-    box-shadow: 6px 8px 6px #8AFFC1;
+    box-shadow: 6px 8px 6px #d4fc79;
   }
   .start-eating-well:hover {
-    background-color: #588c7e;
+    background-color: white;
+    color: #588c7e;
   }
   .learn-more {
     width: 6.5rem;
@@ -137,15 +142,15 @@ const FirstWrapper = styled.div`
     font-size: 0.7rem;
     font-weight: 500;
     background-color: white;
-    color: #56cb56;
+    color: #588c7e;
     border: none;
     border-radius: 1rem;
     transition: 0.7s;
     margin-left: 1rem;
-    box-shadow: 6px 8px 6px #8AFFC1;
+    box-shadow: 6px 8px 6px #d4fc79;
   }
   .learn-more:hover {
-    background-color: #588c7e;
+    background-color: rgb(8, 28, 21);
     color: white;
   }
   .div-peas {
@@ -284,6 +289,10 @@ const SecondWrapper = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
   }
+  .colored-letter{
+    color: #d4fc79;
+    text-shadow: -1px 0 rgb(8, 28, 21), 0 1px rgb(8, 28, 21), 1px 0 rgb(8, 28, 21), 0 -1px rgb(8, 28, 21);
+  }
   li {
     margin-top: 2rem;
     font-weight: 400;
@@ -383,12 +392,12 @@ const SecondWrapper = styled.div`
     height: 32rem;
     margin-top: 0rem;
     .div-title-2 {
-      margin-left: 6rem;
+      margin-left: 11rem;
       width: 30rem;
     }
     h2 {
       padding-top: 3rem;
-      font-size: 2.5rem;
+      font-size: 2.4rem;
     }
     li {
       margin-top: 2rem;
@@ -398,7 +407,7 @@ const SecondWrapper = styled.div`
       width: 22rem;
       height: 22rem;
       margin-top: 5rem;
-      margin-left: 7rem;
+      margin-left: 8rem;
       margin-right: 0;
     }
   }
@@ -412,6 +421,10 @@ const ThirdWrapper = styled.div`
     font-size: 1.2rem;
     color: rgb(8, 28, 21);
     text-align: center;
+  }
+  .colored-letter{
+    color: #d4fc79;
+    text-shadow: -1px 0 rgb(8, 28, 21), 0 1px rgb(8, 28, 21), 1px 0 rgb(8, 28, 21), 0 -1px rgb(8, 28, 21);
   }
   p {
     margin-top: 1.5rem;
