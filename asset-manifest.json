@@ -1,18 +1,15 @@
 {
   "files": {
     "main.css": "/VforVeggie/static/css/main.b6c896e1.css",
-    "main.js": "/VforVeggie/static/js/main.b8604887.js",
-    "static/media/132618-healthy-food-for-diet-fitness.gif": "/VforVeggie/static/media/132618-healthy-food-for-diet-fitness.c9b0f3a7a4f595ebef75.gif",
-    "static/media/20587-peas-playground-of-love.gif": "/VforVeggie/static/media/20587-peas-playground-of-love.e526dc3ef83cd7c977f7.gif",
+    "main.js": "/VforVeggie/static/js/main.24e0c6ac.js",
     "static/media/526-paper-bag-vegetables-lineal.gif": "/VforVeggie/static/media/526-paper-bag-vegetables-lineal.bca23481be406a73c15a.gif",
-    "static/media/124102-loading-screen.gif": "/VforVeggie/static/media/124102-loading-screen.549d86d8a935238d4c1b.gif",
     "static/media/carrots.ico": "/VforVeggie/static/media/carrots.865416b9fd1120404ebc.ico",
     "index.html": "/VforVeggie/index.html",
     "main.b6c896e1.css.map": "/VforVeggie/static/css/main.b6c896e1.css.map",
-    "main.b8604887.js.map": "/VforVeggie/static/js/main.b8604887.js.map"
+    "main.24e0c6ac.js.map": "/VforVeggie/static/js/main.24e0c6ac.js.map"
   },
   "entrypoints": [
     "static/css/main.b6c896e1.css",
-    "static/js/main.b8604887.js"
+    "static/js/main.24e0c6ac.js"
   ]
 }
