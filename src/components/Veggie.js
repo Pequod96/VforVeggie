@@ -22,7 +22,7 @@ function Veggie() {
   return (
     <div>
         <Wrapper>
-          <h3 id="veggiefood"><span class="colored-letter">V</span>eggie Food <img className='carrots' src={carrots} alt="" /></h3>
+          <h3 id="veggiefood"><span className="colored-letter">V</span>eggie Food <img className='carrots' src={carrots} alt="" /></h3>
           <Splide options={{
             perPage: 1,
             arrows: true,
@@ -141,7 +141,7 @@ img{
   left:0rem;
   width: 100%;
   object-fit: cover;
-  box-shadow: 6px 8px 6px gray;
+  box-shadow: 6px 8px 6px #B36BBB;
 }
 p{
   position: absolute;

@@ -8,7 +8,7 @@ function Whyveggie() {
     <div>
       <FirstWrapper>
         <div className="div-title-1">
-          <h2>Should you become a <span class="colored-letter">V</span>egetarian?</h2>
+          <h2>Should you become a <span className="colored-letter">V</span>egetarian?</h2>
           <p>
             People choose a vegetarian diet for many reasons. For some people,
             eating vegetarian is a way to be healthier or to avoid hormones used
@@ -23,13 +23,13 @@ function Whyveggie() {
           </Link>
         </div>
         <div className="div-peas">
-          <lottie-player
+          <lottie-player 
             hover="true"
             src="https://assets2.lottiefiles.com/private_files/lf30_cdui7M.json"
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px #d4fc79",
+              boxShadow: "7px 8px 7px #B36BBB",
               backgroundColor: "white",
             }}
           ></lottie-player>
@@ -43,14 +43,14 @@ function Whyveggie() {
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px #96e6a1",
+              boxShadow: "7px 8px 7px #B36BBB",
               backgroundColor: "#d4fc79",
             }}
           ></lottie-player>
         </div>
         <div className="div-title-2">
           <h2 id="secondwrapper">
-            What are the health benefits of a <span class="colored-letter">V</span>egetarian diet?
+            What are the health benefits of a <span className="colored-letter">V</span>egetarian diet?
           </h2>
           <ul>
             <li>Good for heart health</li>
@@ -62,7 +62,7 @@ function Whyveggie() {
       </SecondWrapper>
       <ThirdWrapper>
         <div className="div-title-3">
-          <h2>How to become a <span class="colored-letter">V</span>egetarian</h2>
+          <h2>How to become a <span className="colored-letter">V</span>egetarian</h2>
           <p>
             Should you go cold tofurkey? That’s up to you. You may choose to
             mark your calendar with the date you’ll start your vegetarian diet.
@@ -81,7 +81,7 @@ function Whyveggie() {
             style={{
               width: "100%",
               borderRadius: "15rem",
-              boxShadow: "8px 10px 8px #96e6a1",
+              boxShadow: "7px 8px 7px #B36BBB",
               backgroundColor: "white",
             }}
           ></lottie-player>
@@ -130,7 +130,7 @@ const FirstWrapper = styled.div`
     border-radius: 1rem;
     transition: 0.7s;
     margin-top: 1rem;
-    box-shadow: 6px 8px 6px #d4fc79;
+    box-shadow: 6px 8px 6px #B36BBB;
   }
   .start-eating-well:hover {
     background-color: white;
@@ -147,7 +147,7 @@ const FirstWrapper = styled.div`
     border-radius: 1rem;
     transition: 0.7s;
     margin-left: 1rem;
-    box-shadow: 6px 8px 6px #d4fc79;
+    box-shadow: 6px 8px 6px #B36BBB;
   }
   .learn-more:hover {
     background-color: rgb(8, 28, 21);
@@ -307,6 +307,7 @@ const SecondWrapper = styled.div`
   @media only screen and (min-width: 375px) and (max-width: 480px) {
     display: flex;
     flex-direction: column-reverse;
+    height: 43rem;
     .div-title-2 {
       width: 20rem;
       margin-right: auto;
@@ -314,13 +315,14 @@ const SecondWrapper = styled.div`
       margin-bottom: 2rem;
     }
     h2 {
-      margin-top: 3rem;
+      margin-top: 0rem;
       font-size: 1.5rem;
       font-weight: 600;
       text-align: center;
     }
     li {
       margin-top: 2rem;
+      margin-bottom: 2rem;
       font-weight: 400;
       font-size: 0.8rem;
       margin-left: 3.5rem;
@@ -331,7 +333,7 @@ const SecondWrapper = styled.div`
     .div-fruits {
       width: 14.5rem;
       height: 14.5rem;
-      margin-bottom: 3rem;
+      margin-bottom: 4rem;
       margin-right: auto;
       margin-left: auto;
     }
@@ -449,7 +451,7 @@ const ThirdWrapper = styled.div`
   }
   @media only screen and (min-width: 375px) and (max-width: 480px) {
     .div-title-3 {
-      margin-top: 3rem;
+      margin-top: 4rem;
       width: 20rem;
       margin-right: auto;
       margin-left: auto;

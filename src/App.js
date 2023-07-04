@@ -8,7 +8,7 @@ function App() {
   return (
        <div className="App">
        <Nav>
-        <Logo to={'/VforVeggie'}>V <span class="colored-letter">FOR</span> V<span class="colored-letter">EGGIE</span></Logo>
+        <Logo to={'/VforVeggie'}>V <span className="colored-letter">FOR</span> V<span className="colored-letter">EGGIE</span></Logo>
         <Search /> 
         <img src={vegetables} alt="" />
        </Nav>
