@@ -86,7 +86,7 @@ const DetailWrapper = styled.div`
   h2 {
     margin: 3rem 2rem 1rem 3rem;
     font-size: 1rem;
-    color: white;
+    color: rgb(8, 28, 21);
   }
   .div-img {
     width: 14.5rem;
@@ -111,37 +111,29 @@ const DetailWrapper = styled.div`
   h3 {
     font-size: 0.6rem;
     line-height: 1rem;
-    color: white;
+    color: rgb(8, 28, 21);
   }
   li {
     font-size: 0.7rem;
     line-height: 1rem;
-    color: white;
+    color: rgb(8, 28, 21);
   }
   ul {
     margin-top: 2rem;
   }
   @media only screen and (min-width: 375px) and (max-width: 480px) {
     margin-top: 1rem;
-    margin-bottom: 2rem;
-    display: flex;
     margin-right: 1rem;
     margin-left: 1rem;
     h2 {
       margin: 5rem 2rem 1rem 4rem;
       font-size: 0.7rem;
       letter-spacing: 1px;
-      color: white;
-      font-weight: 400;
+      font-weight: 500;
     }
     .div-img {
       width: 14.5rem;
       margin-left: 3.5rem;
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 3rem;
     }
     .carrots {
       width: 1.9rem;
@@ -150,42 +142,29 @@ const DetailWrapper = styled.div`
     h3 {
       font-size: 0.8rem;
       line-height: 2rem;
-      color: white;
-      font-weight: 400;
+      font-weight: 500;
       margin-right: 3rem;
       text-align: center;
     }
     li {
       font-size: 0.8rem;
       line-height: 1.2rem;
-      color: white;
-      margin-right: 0rem;
-    }
-    ul {
-      margin-top: 2rem;
+      margin-right: 7rem;
     }
   }
   @media only screen and (min-width: 768px) {
     margin-top: 1rem;
     margin-bottom: 2rem;
-    display: flex;
     margin-right: 1rem;
     margin-left: 1rem;
     h2 {
       margin: 3rem 2rem 1rem 7rem;
       font-size: 1.5rem;
       letter-spacing: 1.5px;
-      color: white;
-      font-weight: 400;
     }
     .div-img {
       width: 30.5rem;
       margin-left: 7rem;
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 3rem;
     }
     .carrots {
       width: 1.9rem;
@@ -194,18 +173,13 @@ const DetailWrapper = styled.div`
     h3 {
       font-size: 1rem;
       line-height: 2rem;
-      color: white;
-      font-weight: 400;
       margin-right: 7rem;
       text-align: center;
     }
     li {
       font-size: 1rem;
       line-height: 1.2rem;
-      color: white;
-    }
-    ul {
-      margin-top: 2rem;
+      margin-right: 0rem;
     }
   }
   @media only screen and (min-width: 1024px) {
@@ -215,21 +189,14 @@ const DetailWrapper = styled.div`
     margin-left: 2rem;
     border-radius: 5rem;
     padding-top: 3rem;
-    display: flex;
     h2 {
       margin-left: 4rem;
       letter-spacing: 1.5px;
-      color: white;
-      font-weight: 400;
+      font-weight: 500;
     }
     .div-img {
       width: 28rem;
       margin-left: 4rem;
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 3rem;
     }
     .carrots {
       width: 3rem;
@@ -238,14 +205,12 @@ const DetailWrapper = styled.div`
     h3 {
       font-size: 1rem;
       line-height: 2rem;
-      color: white;
-      font-weight: 400;
+      font-weight: 500;
       text-align: left;
     }
     li {
       font-size: 1rem;
       line-height: 2rem;
-      color: white;
       font-weight: 500;
     }
     ul {
@@ -254,27 +219,14 @@ const DetailWrapper = styled.div`
     }
   }
   @media only screen and (min-width: 1200px) {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    border-radius: 5rem;
-    padding-top: 3rem;
-    display: flex;
     h2 {
       margin-left: 6rem;
       letter-spacing: 1.5px;
-      color: white;
-      font-weight: 400;
+      font-weight: 600;
     }
     .div-img {
       width: 35rem;
       margin-left: 6rem;
-    }
-    img {
-      width: 100%;
-      height: 100%;
-      border-radius: 3rem;
     }
     .carrots {
       width: 3rem;
@@ -283,18 +235,10 @@ const DetailWrapper = styled.div`
     h3 {
       font-size: 1rem;
       line-height: 2rem;
-      color: white;
-      font-weight: 400;
     }
     li {
       font-size: 1rem;
       line-height: 2rem;
-      color: white;
-      font-weight: 500;
-    }
-    ul {
-      margin-top: 2rem;
-      margin-bottom: 10rem;
     }
   }
 `;
@@ -314,7 +258,7 @@ const Button = styled.button`
     background-color: #f57d22;
     color: white;
   }
-  @media only screen and (min-width: 390px) and (max-width: 480px) {
+  @media only screen and (min-width: 375px) and (max-width: 480px) {
     width: 5.5rem;
     height: 2rem;
     color: white;

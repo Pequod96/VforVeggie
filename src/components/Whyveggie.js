@@ -125,7 +125,7 @@ const FirstWrapper = styled.div`
     font-size: 0.7rem;
     font-weight: 500;
     background-color: rgb(8, 28, 21);
-    color: white;
+    color: #FFF5C6;
     border: none;
     border-radius: 1rem;
     transition: 0.7s;
@@ -151,7 +151,7 @@ const FirstWrapper = styled.div`
   }
   .learn-more:hover {
     background-color: rgb(8, 28, 21);
-    color: white;
+    color: #FFF5C6;
   }
   .div-peas {
     width: 14.5rem;

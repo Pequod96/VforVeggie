@@ -57,7 +57,7 @@ transition: transform 0.3s ease;
 img{
     width: 100%;
     border-radius: 7rem;
-    box-shadow: 8px 10px 8px gray;
+    box-shadow: 6px 8px 6px #B36BBB;
 }
 a{
     text-decoration: none;
